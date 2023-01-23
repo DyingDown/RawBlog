@@ -7,13 +7,13 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: o_oyao
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://dyingdown.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,3 +103,11 @@ theme: hexo-theme-last
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+markdown:
+  render:
+    html: true
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+  
