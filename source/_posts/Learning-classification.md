@@ -1,6 +1,6 @@
 ---
 title: Learning classification
-date: 2019-08-13 01:34:59
+date: 2019-08-12 16:13:00
 tags: Knowledge points
 categories: Machine Learning
 warning: true

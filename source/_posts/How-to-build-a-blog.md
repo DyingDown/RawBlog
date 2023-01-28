@@ -1,6 +1,6 @@
 ---
 title: How to build a blog
-date: 2019-08-13 14:08:50
+date: 2019-08-13 09:49:05
 categories: Blog
 tags: [Hexo, Install]
 warning: true

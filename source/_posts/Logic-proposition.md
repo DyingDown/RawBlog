@@ -1,6 +1,6 @@
 ---
 title: Logic-proposition
-date: 2019-08-13 13:57:03
+date: 2019-08-12 17:09:41
 tags: logic
 categories: Discrete Math
 ---

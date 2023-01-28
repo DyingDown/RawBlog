@@ -1,6 +1,6 @@
 ---
 title: Prime factor of n
-date: 2019-08-15 16:37:06
+date: 2019-08-15 13:43:06
 tags: Knowledge points
 categories: ACM
 ---
@@ -45,7 +45,7 @@ int prime_factor(int n){
 $$
 4937775= 3*5*5*65837
 $$
-​ The sum of all digits of the telephone number is 4+9+3+7+7+7+5= 42,and the sum of the digits of its prime factors is equally 3+5+5+6+5+8+3+7=42. Wilansky was so amazed by his discovery that he named this kind of numbers after his brother-in-law: Smith numbers.
+ The sum of all digits of the telephone number is 4+9+3+7+7+7+5= 42,and the sum of the digits of its prime factors is equally 3+5+5+6+5+8+3+7=42. Wilansky was so amazed by his discovery that he named this kind of numbers after his brother-in-law: Smith numbers.
 As this observation is also true for every prime number, Wilansky decided later that a (simple and unsophisticated) prime number is not worth being a Smith number, so he excluded them from the definition.
 Wilansky published an article about Smith numbers in the Two Year College Mathematics Journal and was able to present a whole collection of different Smith numbers: For example, 9985 is a Smith number and so is 6036. However,Wilansky was not able to find a Smith number that was larger than the telephone number of his brother-in-law. It is your task to find Smith numbers that are larger than 4937775!
 
