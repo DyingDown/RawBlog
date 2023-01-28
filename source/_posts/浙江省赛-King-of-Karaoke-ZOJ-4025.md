@@ -3,6 +3,7 @@ title: 浙江省赛 King of Karaoke ZOJ 4025
 date: 2020-10-03 16:25:51
 tags: [Logic, ZOJ]
 categories: ACM
+main: Logic
 description: The point of this problem is to find the most appearance of s[i] - d[i].
 ---
 

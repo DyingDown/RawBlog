@@ -1,8 +1,9 @@
 ---
 title: 2018 ACM-ICPC Asia Flippy Sequence ZOJ-4060
 date: 2020-10-04 02:36:32
-tags:
+tags: [Logic, ACM-ICPC]
 categories: ACM
+main: Logic
 ---
 
 ## Problem Description

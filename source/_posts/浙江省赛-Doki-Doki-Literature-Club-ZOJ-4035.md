@@ -3,10 +3,8 @@ title: 浙江省赛 Doki Doki Literature Club ZOJ 4035
 date: 2020-10-03 16:54:38
 tags: [Sort, ZOJ, Struct Sort]
 categories: ACM
-postImage:
-description:
-warning:
-isCarousel:
+main: Sort
+description: First sort by value, then sort by lexicography.
 ---
 
 ## Problem Description
