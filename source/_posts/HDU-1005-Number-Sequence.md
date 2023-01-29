@@ -1,8 +1,9 @@
 ---
 title: HDU-1005 Number Sequence
 date: 2019-12-19 04:51:20
-tags: [Brute Force, HDU]
+tags: [Force, HDU]
 categories: ACM
+main: Force
 postImage: https://s1.ax1x.com/2020/04/26/JgASw4.jpg
 description: This problem seems like a very huge problem, however, the answers have some certain regular pattern.
 ---

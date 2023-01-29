@@ -3,6 +3,7 @@ title: CodeForces-1296 A Array with Odd Sum
 date: 2020-02-04 16:48:57
 tags: [Simulation, CodeForces]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/JcuIAS.png
 description: If there is no odd number, then no matter how to move it will stay all even, so it's NO.
 ---

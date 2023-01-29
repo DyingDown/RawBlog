@@ -3,6 +3,7 @@ title: LuoGu-P1308 Count Words
 date: 2020-07-10 10:14:20
 tags: [String, stringstream]
 categories: ACM
+main: String
 description: Using stringstream can help make the problem easy. Using stringstream to traverse the sentence word by word.
 ---
 

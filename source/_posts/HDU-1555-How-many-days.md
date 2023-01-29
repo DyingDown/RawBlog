@@ -3,6 +3,7 @@ title: HDU-1555 How many days?
 date: 2019-12-18 09:56:23
 tags: [Simulation, HDU]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/JgAt0g.jpg
 description: This is just stimulation. At first I think the answer was m + m / k . However, I didn't think of that there may be given more than k days more.
 ---

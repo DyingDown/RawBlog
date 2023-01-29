@@ -3,6 +3,7 @@ title: CodeForces-1300 B Assigning to Classes
 date: 2020-02-09 15:51:55
 tags: [CodeForces, Sort]
 categories: ACM
+main: Sort
 postImage: https://s1.ax1x.com/2020/04/26/Jc1tLn.jpg
 description: The middle two numbers' absolute difference is the answer. Because you can give the first to array1 and second to array2 and third to array1...
 ---

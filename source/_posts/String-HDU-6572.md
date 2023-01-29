@@ -1,8 +1,9 @@
 ---
 title: String HDU-6572
 date: 2019-11-11 15:05:28
-tags: [HDU, Problem]
+tags: [HDU, Problem, Math]
 categories: ACM
+main: Math
 description: Because of selecting the same character is allowed, so the probability of one character is
 ---
 

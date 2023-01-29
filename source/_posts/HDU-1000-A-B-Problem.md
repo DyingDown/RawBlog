@@ -3,6 +3,7 @@ title: HDU-1000 A+B Problem
 date: 2019-12-14 14:03:12
 tags: [Other, HDU]
 categories: ACM
+main: Other
 postImage: https://s1.ax1x.com/2020/04/26/JgAkSx.jpg
 description: The easiest problem
 ---

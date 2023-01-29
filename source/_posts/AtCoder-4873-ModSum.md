@@ -3,6 +3,7 @@ title: AtCoder-4873 ModSum
 date: 2019-11-17 09:04:47
 tags: [Math, AtCoder]
 categories: ACM
+main: Math
 description: The biggest answer is that after the operation the number can remain it self.
 ---
 

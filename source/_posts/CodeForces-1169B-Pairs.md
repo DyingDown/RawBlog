@@ -1,8 +1,9 @@
 ---
 title: CodeForces-1169B Pairs
 date: 2019-11-24 10:01:32
-tags: [Brute Force, CodeForces]
+tags: [Force, CodeForces]
 categories: ACM
+main: Force
 postImage: https://s1.ax1x.com/2020/04/26/Jc1Yss.jpg
 description: First, you get the fist pair of numbers. And then find a pair of numbers that is totally different with the first pair.
 ---

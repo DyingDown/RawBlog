@@ -3,6 +3,7 @@ title: HDU-1037 Keep on Truckin'
 date: 2019-12-15 06:09:39
 tags: [Other, HDU]
 categories: ACM
+main: Other
 postImage: https://s1.ax1x.com/2020/04/26/JgAemD.jpg
 description: Just estimate each number, if it is lower than 168, then this underpass is unable to be passed. If no number is less than 168 ,then there is no crash.
 ---

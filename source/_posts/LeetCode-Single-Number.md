@@ -1,8 +1,9 @@
 ---
 title: LeetCode_Single-Number
 date: 2020-09-18 13:22:27
-tags: [Math, Bit Operation, LeetCode]
+tags: [Math, Bit Manipulation, LeetCode, Bit]
 categories: ACM
+main: Bit
 description: This is bit XOR Operation.
 ---
 

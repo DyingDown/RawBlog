@@ -3,6 +3,7 @@ title: AtCoder-4297 Monsters Battle Royale
 date: 2019-11-17 09:27:54
 tags: [Math, AtCoder, GCD]
 categories: ACM
+main: Math
 description: Seeing the operation, we can easily think of Euclidean algorithm which is the way to calculate GCD.
 ---
 

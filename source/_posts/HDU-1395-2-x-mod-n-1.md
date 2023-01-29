@@ -3,6 +3,7 @@ title: HDU-1395 2^x mod n=1
 date: 2019-12-16 02:11:04
 tags: [Math, HDU, Mode]
 categories: ACM
+main: Math
 postImage: https://s1.ax1x.com/2020/04/26/JgA31P.jpg
 description: This is a loop problem, you need to loop x from 1 to MAX to find if there is an x that fits it.
 ---

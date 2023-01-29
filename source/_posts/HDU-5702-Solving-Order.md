@@ -3,6 +3,7 @@ title: HDU-5702 Solving Order
 date: 2020-07-11 11:37:49
 tags: [Sort, HDU, struct]
 categories: ACM
+main: Sort
 description: This just struct sort. The most easy one with no tricks.
 ---
 

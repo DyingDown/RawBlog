@@ -3,6 +3,7 @@ title: AtCoder-5165 Kleene Inversion
 date: 2019-11-22 12:20:34
 tags: ACM
 categories: [Math, AtCoder]
+main: Math
 description: The answer of the problem has a regular pattern. For example, there is a sequence A and for number An in A, the number that is bigger than An has two parts
 ---
 

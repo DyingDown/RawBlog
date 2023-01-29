@@ -3,6 +3,7 @@ title: HDU-1040 As Easy As A+B
 date: 2019-12-15 08:22:07
 tags: [Sort, HDU, Quick Sort]
 categories: ACM
+main: Sort
 postImage: https://s1.ax1x.com/2020/04/26/JgAm0e.jpg
 description: This is a sorting problem, you can either use quick sort or bubble sort or other sorts.
 ---

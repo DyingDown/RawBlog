@@ -3,6 +3,7 @@ title: HDU-2023 Average score
 date: 2019-12-20 06:29:16
 tags: [HDU, Problem, Other]
 categories: ACM
+main: Other
 description: No tricks but you need to be very careful or you will not be able to make it.
 ---
 

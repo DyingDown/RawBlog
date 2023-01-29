@@ -3,6 +3,7 @@ title: CodeForces-1296 B Food Buying
 date: 2020-02-05 04:40:19
 tags: [Simulation, CodeForces]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/JcuRXt.png
 description: This is stimulating the process. First, spend the money of multiples of ten. Spend the most at once. Second, add up the rest and feedback money.
 ---

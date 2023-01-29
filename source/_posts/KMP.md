@@ -1,8 +1,8 @@
 ---
 title: KMP
 date: 2019-08-16 01:01:56
-tags: Knowledge points 
-categories: ACM
+tags: [Knowledge points, KMP, String]
+categories: Algorithm
 ---
 
 KMP is an algorithm that find the given pattern string in the pending string. Usually we would think of violent traversing the two strings using for loop. However the time complexity of this method is O(n)~O(mn). So the KMP can cut the times of loop.

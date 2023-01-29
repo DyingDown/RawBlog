@@ -3,6 +3,7 @@ title: Xiongnu's Land
 date: 2019-10-20 03:28:33
 tags: [Search, UVALive, Binary Search]
 categories: ACM
+main: Search
 description: The core of the problem is Dichotomy which is Binary search the best range of the X.
 ---
 

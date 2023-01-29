@@ -1,8 +1,9 @@
 ---
 title: HDU-2096 XiaoMing A+B
 date: 2019-12-19 13:49:00
-tags: [HDU, Problem]
+tags: [HDU, Problem, Logic]
 categories: ACM
+main: Logic
 description: a and b each mod 100 and the answer a + b mod 100
 ---
 

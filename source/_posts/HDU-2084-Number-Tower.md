@@ -3,6 +3,7 @@ title: HDU-2084 Number Tower
 date: 2019-12-20 06:50:56
 tags: [HDU, Problem, Other]
 categories: ACM
+main: Other
 description: "As you can easily see, for each point tower[i][j] , it has two parent points, 
 warning..."
 ---

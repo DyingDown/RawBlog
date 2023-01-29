@@ -3,6 +3,7 @@ title: CodeForces-1288 B Yet Another Meme Problem
 date: 2020-01-15 08:41:45
 tags: [Math, CodeForces]
 categories: ACM
+main: Math
 postImage: https://s1.ax1x.com/2020/04/26/Jcuh0f.png
 description: So the value of b should only be 9,99,999...(each digit is consists of 9)
 ---

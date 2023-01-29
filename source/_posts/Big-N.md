@@ -3,6 +3,7 @@ title: Big N!
 date: 2019-09-17 06:20:34
 tags: [Simulation, String, HDU, Template, Knowlege points]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/JgAKkd.jpg
 ---
 

@@ -3,6 +3,7 @@ title: AtCoder-4870 Attack Survival
 date: 2019-11-17 10:49:22
 tags: [AtCoder, Simulation]
 categories: ACM
+main: Simulation
 description: The main mission of this problem is to count each players number of right questions.
 ---
 

@@ -3,6 +3,7 @@ title: HDU-2019 Ordered Sequence
 date: 2019-12-20 08:06:46
 tags: [HDU, Problem, Sort]
 categories: ACM
+main: Sort
 description: Using C++ Sort.
 ---
 

@@ -2,6 +2,7 @@
 title: CodeForces 1295 A Display The Number
 date: 2020-01-29 17:34:56
 tags: [Simulation, CodeForces]
+main: Simulation
 categories: ACM
 postImage: https://s1.ax1x.com/2020/04/26/Jcug1A.png
 ---

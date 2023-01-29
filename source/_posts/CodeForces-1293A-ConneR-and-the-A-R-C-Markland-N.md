@@ -3,6 +3,7 @@ title: CodeForces-1293A ConneR and the A.R.C. Markland-N
 date: 2020-01-19 07:33:35
 tags: [CodeForces, STL, Map]
 categories: ACM
+main: STL
 postImage: https://s1.ax1x.com/2020/04/26/Jcu478.png
 description: In the first example test case, the nearest floor with an open restaurant would be the floor 4.
 ---

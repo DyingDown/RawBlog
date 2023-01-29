@@ -1,8 +1,9 @@
 ---
 title: World Cup
 date: 2019-10-20 02:51:54
-tags: [Brute Force, GYM, CodeForces]
+tags: [Force, GYM, CodeForces]
 categories: ACM
+main: Force
 description: For me, the core of the problem is to figure out how the matches carry on exactly. It's the hardest part for me.
 ---
 

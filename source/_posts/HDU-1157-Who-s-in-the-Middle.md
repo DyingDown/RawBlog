@@ -3,6 +3,7 @@ title: HDU-1157 Who's in the Middle
 date: 2019-12-15 14:16:23
 tags: [Sort, HDU]
 categories: ACM
+main: Sort
 postImage: https://s1.ax1x.com/2020/04/26/JgAnTH.jpg
 description: Just sort all the numbers, since the input numbers are odds, so the middle number is n / 2 + 1
 ---

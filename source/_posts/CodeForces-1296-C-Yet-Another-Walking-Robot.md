@@ -3,6 +3,7 @@ title: CodeForces-1296 C Yet Another Walking Robot
 date: 2020-02-05 05:09:29
 tags: [Simulation, CodeForces]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/Jcu26I.png
 description: Stimulate the walking process. Using map, int> to store the points. (The second parameter of map stands for the times of the move, that is the position in the string where it meets a certain points)
 ---

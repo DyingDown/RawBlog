@@ -1,8 +1,9 @@
 ---
 title: CodeForces-1180B Nick and Array
 date: 2019-11-24 09:57:45
-tags: [Brute Force, CodeForces]
+tags: [Force, CodeForces]
 categories: ACM
+main: Force
 postImage: https://s1.ax1x.com/2020/04/26/Jcuotg.png
 description: To make the most product, you just need to change all numbers to negative first. And then find the smallest number and make it positive.
 ---

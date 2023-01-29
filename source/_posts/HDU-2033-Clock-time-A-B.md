@@ -1,8 +1,9 @@
 ---
 title: HDU-2033 Clock time A+B
 date: 2019-12-20 03:01:16
-tags: [HDU, Problem]
+tags: [HDU, Problem, Simulation]
 categories: ACM
+main: Simulation
 description: Just stimulate the rule of clock time addition.
 ---
 

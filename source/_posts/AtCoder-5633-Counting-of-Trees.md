@@ -3,6 +3,7 @@ title: AtCoder-5633 Counting of Trees
 date: 2019-11-21 14:02:57
 tags: [Math, AtCoder, Quick pow, Permuation]
 categories: ACM
+main: Math
 description: At first I didn't understand the meaning of the problem. It means 1 is the root and the distance between the points on the first layer with the root is 1.
 ---
 

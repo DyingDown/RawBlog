@@ -1,8 +1,9 @@
 ---
 title: Voronoi Diagram Returns
 date: 2019-10-20 01:46:26
-tags: [GYM, Geometry, CodeForces]
+tags: [GYM, Math, Geometry, CodeForces]
 categories: ACM
+main: Math
 description: From the description above we can draw that the Voronoi Diagram is drawn not casually but with some rules and the role can only correspond to one kind of the diagram.
 ---
 

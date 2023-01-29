@@ -3,6 +3,7 @@ title: HDU-2020 Absolute Sort
 date: 2019-12-20 07:35:04
 tags: [HDU, Problem, Sort]
 categories: ACM
+main: Sort
 description: Turn then into positive numbers and sort. And for each unit in array, if it’s negative originally, turn it back to negative.
 ---
 

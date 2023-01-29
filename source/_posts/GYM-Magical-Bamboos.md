@@ -3,6 +3,7 @@ title: GYM Magical Bamboos
 date: 2020-07-10 10:51:37
 tags: [Math, GYM ]
 categories: ACM
+main: Math
 description: So our goal is to find whether there is a difference between two words that is not even.
 ---
 

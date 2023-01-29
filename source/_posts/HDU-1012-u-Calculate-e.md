@@ -3,6 +3,7 @@ title: HDU-1012 u Calculate e
 date: 2019-12-14 18:04:32
 tags: [Other, HDU]
 categories: ACM
+main: Other
 postImage: https://s1.ax1x.com/2020/04/26/JgAPYR.jpg
 description: The range of the number is very small, only 0 to 9, store all the factorial of n, and then calculate then one by one.
 ---

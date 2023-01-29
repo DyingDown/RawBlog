@@ -1,8 +1,9 @@
 ---
 title: AtCoder-4871 Lower
 date: 2019-11-17 11:16:44
-tags: [AtCoder, Brute Force]
+tags: [AtCoder, Force]
 categories: ACM
+main: Force
 description: The max number = max(max number, answer).
 ---
 

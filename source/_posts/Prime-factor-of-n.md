@@ -1,8 +1,9 @@
 ---
 title: Prime factor of n
 date: 2019-08-15 13:43:06
-tags: Knowledge points
+tags: [Math, Knowledge points]
 categories: ACM
+main: Math
 ---
 
 Any given natural number n can be written as a format of the multiplication of sum prime numbers. For example:

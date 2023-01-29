@@ -3,6 +3,7 @@ title: HDU-1008 Elevator
 date: 2019-12-14 16:37:28
 tags: [Simulation, HDU]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/JgkvOU.jpg
 description: This is an easy problem and you just need to stimulate the hole process.
 ---

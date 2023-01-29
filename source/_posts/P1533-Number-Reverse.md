@@ -3,6 +3,7 @@ title: P1533 Number Reverse
 date: 2019-09-02 07:03:16
 tags: [String, 洛谷]
 categories: ACM
+main: String
 description: we just find the position of the character '.' and '/' and '%' and reverse the string before and after the character and omit the front zeros.
 ---
 

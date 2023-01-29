@@ -3,6 +3,7 @@ title: HDU-1048 The Hardest Problem Ever
 date: 2019-12-15 11:50:13
 tags: [String, HDU]
 categories: ACM
+main: String
 postImage: https://s1.ax1x.com/2020/04/26/JgAE6K.jpg
 description: You can easily see that the law of ciphers is that each letter moves 21 bits backward. The 26 letters form a circle to support the law. However, in the ascii code, the letters are not a circle so you need to judge separately.
 ---

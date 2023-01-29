@@ -1,8 +1,9 @@
 ---
 title: HDU-2018 Story of Cow
 date: 2019-12-20 09:26:05
-tags: [Brute Force, HDU, Regular Pattern]
+tags: [Force, HDU, Regular Pattern]
 categories: ACM
+main: Force
 description: Let's stimulate the situation by ourselves first.
 ---
 

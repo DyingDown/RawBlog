@@ -1,8 +1,9 @@
 ---
 title: 浙江省赛 Peak ZOJ 4024
 date: 2020-10-03 10:44:22
-tags: [Brute Force, ZOJ]
+tags: [Force, ZOJ]
 categories: ACM
+main: Force
 description: The most important is to consider all the situations that doesn't make a peak.
 ---
 

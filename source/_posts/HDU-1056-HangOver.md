@@ -3,6 +3,7 @@ title: HDU-1056 HangOver
 date: 2019-12-15 11:51:22
 tags: [Simulation, HDU]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/JgAMtA.jpg
 description: Since the data is every small, you just need to loop and calculate until you find a answer that is bigger than the given number.
 ---

@@ -3,6 +3,7 @@ title: CodeForces-580C Kefa and Park
 date: 2019-11-24 09:53:22
 tags: [CodeForces, Graph, DFS, BFS]
 categories: ACM
+main: Graph
 description: The algorithm of the problem is BFS or DFS. I use BFS. Traverse all the points by layer and count it's alongside cats.
 postImage: https://s1.ax1x.com/2020/04/26/Jc1UZq.jpg
 ---

@@ -3,6 +3,7 @@ title: HDU-1222 Wolf and Rabbit
 date: 2019-12-15 14:36:20
 tags: [Math, GCD, HDU]
 categories: ACM
+main: Math
 postImage: https://s1.ax1x.com/2020/04/26/JgA1pt.jpg
 description: This problem is to judge whether the two numbers are relatively prime.
 ---

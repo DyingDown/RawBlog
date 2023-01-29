@@ -3,6 +3,7 @@ title: CodeForces-1180A Alex and a Rhombus
 date: 2019-11-24 09:55:47
 tags: [Math, CodeForces]
 categories: ACM
+main: Math
 postImage: https://s1.ax1x.com/2020/04/26/JcuThQ.png
 description: This problem has a regular formula. First you count the outermost layer has how many squares. Then the second outermost layer. Until the second smallest layer.
 ---

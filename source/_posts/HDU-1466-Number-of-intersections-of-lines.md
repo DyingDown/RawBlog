@@ -3,6 +3,7 @@ title: HDU-1466 Number of intersections of lines
 date: 2019-12-18 13:15:44
 tags: [STL, HDU, Set, DP]
 categories: ACM
+main: DP
 postImage: https://s1.ax1x.com/2020/04/26/JgAYnS.jpg
 description: The following analysis is from boss Tan when he taught me how to solve this problem. After passing the problem, I sum up his ideas and turned it into words.
 ---

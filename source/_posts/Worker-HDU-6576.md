@@ -1,8 +1,9 @@
 ---
 title: Worker HDU-6576
 date: 2019-11-11 12:15:21
-tags: [HDU, Problem]
+tags: [HDU, Problem, Math, GCD]
 categories: ACM
+main: Math
 description: This problem is gcd or lcm problem. 
 ---
 

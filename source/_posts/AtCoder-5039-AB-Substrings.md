@@ -3,6 +3,7 @@ title: AtCoder-5039 AB Substrings
 date: 2019-11-17 11:32:55
 tags: ACM
 categories: [AtCoder, String]
+main: String
 description: This is to find how many strings that starts with A and ends with B and the number of AB inside the string.
 ---
 

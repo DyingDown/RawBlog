@@ -1,8 +1,9 @@
 ---
 title: CodeForces-1300 A Non-zero
 date: 2020-02-09 15:23:46
-tags: [Brute Force, CodeForces]
+tags: [Force, CodeForces]
 categories: ACM
+main: Force
 postImage: https://s1.ax1x.com/2020/04/26/Jcucpd.png
 description: Calculate the number of zeros and sum. If there is all zeros, the answer is n + 1;
 ---

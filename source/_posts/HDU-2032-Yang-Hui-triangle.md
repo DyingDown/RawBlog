@@ -1,8 +1,9 @@
 ---
 title: HDU-2032 Yang Hui triangle
 date: 2019-12-20 03:25:19
-tags: [HDU, Problem]
+tags: [HDU, Problem, Logic]
 categories: ACM
+main: Logic
 description: As you can see from the picture, for each unit, there is...
 ---
 

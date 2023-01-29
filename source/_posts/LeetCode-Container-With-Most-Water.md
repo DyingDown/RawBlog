@@ -1,7 +1,8 @@
 ---
 title: LeetCode-Container With Most Water
 date: 2020-09-06 03:15:42
-tags: [LeetCode, Double pointer, Logic]
+tags: [LeetCode, Two pointers, Logic]
+main: Logic
 categories: ACM
 description: If we combine the left search with the right search, we need to make the lines with shorter height move.
 ---

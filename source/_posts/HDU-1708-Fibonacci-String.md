@@ -3,6 +3,7 @@ title: HDU-1708 Fibonacci String
 date: 2019-12-20 02:17:22
 tags: [Math, String, HDU, Fibonacci]
 categories: ACM
+main: Math
 postImage: https://s1.ax1x.com/2020/04/26/JgAakj.jpg
 description: This problem has a regular pattern. Let me show you.
 ---

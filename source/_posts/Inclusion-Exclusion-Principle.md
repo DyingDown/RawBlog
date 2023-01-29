@@ -1,8 +1,8 @@
 ---
 title: Inclusion Exclusion Principle
 date: 2019-08-15 13:49:14
-tags: Knowledge points
-categories: ACM
+tags: [Knowledge points, Math, Inclusion Exclusion Principle]
+categories: Algorithm
 ---
 
 >  In [combinatorics](https://en.wikipedia.org/wiki/Combinatorics) (combinatorial mathematics), the **inclusion–exclusion principle** is a counting technique which generalizes the familiar method of obtaining the number of elements in the [union](https://en.wikipedia.org/wiki/Union_(set_theory)) of two finite [sets](https://en.wikipedia.org/wiki/Set_(mathematics)); – From Wikipedia

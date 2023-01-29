@@ -3,6 +3,7 @@ title: CodeForces-1293B JOE is on TV!
 date: 2020-01-19 07:33:51
 tags: [Simulation, CodeForces]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/JcufnP.png
 description: For the biggest, only if there is one person who answer the wrong can he go through the most questions. So the longest time he can go through, the largest sum of money he can get.
 ---

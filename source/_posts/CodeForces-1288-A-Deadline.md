@@ -3,6 +3,7 @@ title: CodeForces-1288 A Deadline
 date: 2020-01-15 06:07:55
 tags: [Math, CodeForces]
 categories: ACM
+main: Math
 description: First of all I tried the violent way. Time limit exceeded. So I tried mathematic way.
 postImage: https://s1.ax1x.com/2020/04/26/JcuHpj.png
 ---

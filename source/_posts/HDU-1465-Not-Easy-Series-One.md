@@ -1,8 +1,9 @@
 ---
 title: HDU-1465 Not Easy Series One
 date: 2019-12-16 09:43:54
-tags: [Brute Force, HDU]
+tags: [Force, HDU]
 categories: ACM
+main: Force
 postImage: https://s1.ax1x.com/2020/04/26/JgAGX8.jpg
 description: Note that the answer can be very huge, so you need to use long long.
 ---

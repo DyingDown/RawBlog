@@ -3,6 +3,7 @@ title: AtCoder-5037 Consecutive Integers
 date: 2019-11-17 08:48:42
 tags: [Math, AtCoder]
 categories: ACM
+main: Math
 description: If you have three numbers 1, 2, 3 and want the length of the consecutive subsequence be two, the answer is 3-2+1, because you can choose 1, 2 or 1, 3.
 ---
 

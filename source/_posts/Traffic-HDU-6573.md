@@ -1,8 +1,9 @@
 ---
 title: Traffic HDU-6573
 date: 2019-11-11 14:09:09
-tags: [HDU, Problem]
+tags: [HDU, Problem, Logic]
 categories: ACM
+main: Logic
 description: "There is a fuzzy point in the description. That is all the car has to wait the same amount of time. For example,"
 ---
 

@@ -3,6 +3,7 @@ title: CodeForeces-1301 A Three Strings
 date: 2020-02-14 08:02:40
 tags: [String, CodeForces]
 categories: ACM
+main: String
 postImage: https://s1.ax1x.com/2020/04/26/Jc1JMj.png
 description: Only two conditions exist that make it impossible
 ---

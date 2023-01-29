@@ -3,6 +3,7 @@ title: HDU-1280 Front m biggest Numbers
 date: 2019-12-16 00:39:40
 tags: [Sort, HDU]
 categories: ACM
+main: Sort
 postImage: https://s1.ax1x.com/2020/04/26/JgA86f.jpg
 description: First sort all the original numbers. And then, add the first m biggest numbers one by one, we get biggest sums of first m * m numbers.
 ---

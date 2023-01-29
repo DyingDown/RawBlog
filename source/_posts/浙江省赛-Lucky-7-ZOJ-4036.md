@@ -1,8 +1,9 @@
 ---
 title: 浙江省赛 Lucky 7 ZOJ 4036
 date: 2020-10-03 16:19:59
-tags: [Brute Force, Other, ZOJ]
+tags: [Force, Other, ZOJ]
 categories: ACM
+main: Force
 description: Check one by one.
 ---
 

@@ -3,6 +3,7 @@ title: Rising Sun
 date: 2019-10-20 02:21:53
 tags: [CodeForces, STL, Map, GYM]
 categories: ACM
+main: STL
 description: Position of the house can be divided into two situation, Uphill slope and Downhill slope. And the two situations are used to calculate the Y position of the house.
 ---
 

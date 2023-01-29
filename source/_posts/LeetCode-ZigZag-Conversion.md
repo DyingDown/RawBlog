@@ -3,6 +3,7 @@ title: LeetCode-ZigZag Conversion
 date: 2020-09-03 16:10:09
 tags: [String, STL, LeetCode, Matrix]
 categories: ACM
+main: String
 description: We can simulate the order of the place order. Store them in a matrix and then combine the answer string.
 ---
 

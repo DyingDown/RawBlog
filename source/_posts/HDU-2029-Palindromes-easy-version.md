@@ -3,6 +3,7 @@ title: HDU-2029 Palindromes_easy version
 date: 2019-12-20 03:34:53
 tags: [String, HDU]
 categories: ACM
+main: String
 description: Using C++ 11 features. reverse. Another way is is find the middle of the string and travers from both side. Compare one by one.
 ---
 

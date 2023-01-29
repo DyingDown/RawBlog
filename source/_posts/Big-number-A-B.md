@@ -3,6 +3,7 @@ title: Big number A+B
 date: 2019-09-15 05:32:24
 tags: [Knowledge points, Simulation, HDU]
 categories: ACM
+main: Simulation
 postImage: https://s1.ax1x.com/2020/04/26/JgAif1.jpg
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: Budget HDU-6575
 date: 2019-11-11 13:20:11
-tags: [HDU, Problem]
+tags: [HDU, Problem, Logic]
 categories: ACM
+main: Logic
 description: This is a rounding problem. Since it has only three number after the point, you just need to find the last number n and if it's more than four...
 ---
 
