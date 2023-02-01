@@ -4,6 +4,7 @@ date: 2020-05-05 12:23:48
 tags:
 categories: Essay
 postImage: https://s1.ax1x.com/2020/05/05/YFxHtP.png
+color: '4A148C'
 ---
 
 人活着，总会思考一些关于死亡的问题。尤其在活的并不痛快，脚下之路一片迷茫的时候。

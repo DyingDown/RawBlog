@@ -4,6 +4,7 @@ date: 2020-05-03 01:12:27
 tags:
 categories: Essay
 postImage: https://s1.ax1x.com/2020/05/03/YpG8UK.png
+color: '123400'
 ---
 
 我不喜欢照镜子。

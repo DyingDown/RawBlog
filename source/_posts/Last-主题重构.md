@@ -3,6 +3,7 @@ title: Last 主题重构
 date: 2020-12-18 16:44:22
 tags: hexo-theme-last
 categories: Essay
+color: a7ccdb
 ---
 
 Hexo-theme-last是去年开发的了，但是一直没有完成 ，而且是处于什么也不会的基础上。所以…

@@ -4,6 +4,7 @@ date: 2020-05-05 12:06:40
 tags:
 categories: Essay
 postImage: https://s1.ax1x.com/2020/05/05/YFLPfg.png
+color: '03A9F4'
 ---
 
 我站在对面的街角，看着人来人往的人群。

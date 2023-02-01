@@ -4,6 +4,7 @@ date: 2020-05-05 12:21:32
 tags:
 categories: Essay
 postImage: https://s1.ax1x.com/2020/05/05/YFv0at.png
+color: '9E9D24'
 ---
 
 什么是对的？

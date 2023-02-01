@@ -4,6 +4,7 @@ date: 2020-05-05 12:26:21
 tags:
 categories: Essay
 postImage: https://s1.ax1x.com/2020/05/05/YFzjC6.png
+color: '006064'
 ---
 
 我想，人的心到底是什么所组成？

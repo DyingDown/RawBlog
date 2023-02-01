@@ -4,6 +4,7 @@ date: 2020-05-05 12:09:17
 tags:
 categories: Essay
 postImage: https://s1.ax1x.com/2020/05/05/YFjv8S.png
+color: 4CAF50
 ---
 
 黑沉的夜，仿佛永不见光明。

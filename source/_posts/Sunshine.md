@@ -4,6 +4,7 @@ date: 2020-05-02 21:50:54
 tags: no
 categories: Essay
 postImage: https://s1.ax1x.com/2020/05/03/YpN3sH.png
+color: 'ff9ebd'
 ---
 
 我一直在想，究竟是谁夺走了我的幸福。

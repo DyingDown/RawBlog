@@ -3,6 +3,7 @@ title: Chapter17
 date: 2020-05-05 12:18:02
 tags:
 categories: Essay
+color: 'BF360C'
 ---
 
 她开始了做梦，奇奇怪怪，画面扭曲的梦。

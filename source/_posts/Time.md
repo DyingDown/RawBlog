@@ -3,6 +3,7 @@ title: Time
 date: 2020-05-05 11:52:58
 tags:
 categories: Essay
+color: 'FF6F00'
 ---
 
 那些扭曲的画面，不知不觉被甩的很远。

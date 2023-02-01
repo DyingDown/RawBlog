@@ -1,8 +1,8 @@
 ---
 title: Absolute path and Relative path
 date: 2020-01-29 09:41:46
-tags: Linux
-categories: [Knowledge points]
+tags: Knowledge points
+categories: [Linux]
 postImage: https://s1.ax1x.com/2020/04/26/Jcucpd.png
 ---
 

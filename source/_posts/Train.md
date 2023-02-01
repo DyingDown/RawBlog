@@ -4,6 +4,7 @@ date: 2020-05-05 12:14:47
 tags:
 categories: Essay
 postImage: https://s1.ax1x.com/2020/05/05/YFXeiT.png
+color: 'cc1744'
 ---
 
 门突然打开。

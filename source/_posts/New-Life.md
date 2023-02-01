@@ -3,6 +3,7 @@ title: New Life
 date: 2020-05-03 07:16:22
 tags:
 categories: Essay
+color: '654321'
 ---
 
 洛薰
