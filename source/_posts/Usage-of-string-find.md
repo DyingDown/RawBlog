@@ -1,8 +1,8 @@
 ---
 title: Usage of string.find()
-date:2019-09-02 00:34:38
-tags: usage
+date: 2019-09-02 00:34:38
 categories: C++
+tags: usage
 postImage: https://s1.ax1x.com/2020/04/25/J6kwz8.jpg
 ---
 
