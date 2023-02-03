@@ -126,7 +126,7 @@ index2_generator:
     exclude:
       - category ACM # include article which category is Web
       - category Essay
-      - category "Learn Words"
+      - category Learn-Words
     index: true
 
 
