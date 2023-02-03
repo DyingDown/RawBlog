@@ -1,4 +1,5 @@
 @import "../themes/variable.styl"
+@import "search.styl"
 
 .this-is-post-page
 .this-is-home-page
@@ -102,6 +103,7 @@ $sideW = 80vw
     width: 65%;
     margin: 0 auto
 
+
 .menu #nav li a
     line-height: 45px
     font-size: 20px
@@ -124,6 +126,7 @@ $sideW = 80vw
     display block
     border-radius: 20px;
     padding: 5px 5px 5px 10px;
+    position relative
 #menu-outer .search #local-search-input
     background: transparent
     border: none
@@ -133,7 +136,8 @@ $sideW = 80vw
     width: 0
     // float: left
     padding: 0
-
+.this-is-post-page + #menu-outer .search #local-search-input
+    color: $headerPostCt
 .search-icon 
     color: $headerCt;
     float: right;
@@ -150,21 +154,30 @@ $sideW = 80vw
 .this-is-post-page + #menu-outer .search-icon 
     color: $headerHv
 
-#menu-outer .search:hover #local-search-input 
+#menu-outer .search:hover #local-search-input,
+#menu-outer .search:active #local-search-input,
+#menu-outer .search #local-search-input:focus
     width: 120px;
     padding: 0 6px;
 
 .search:hover > .search 
     width: 180px;
 
-.search:hover > .search-icon 
+.search:hover > .search-icon
     background: none;
     color: $headerHv;
     font-size: 16px;
 
-.search:hover
+.search:hover,
+.search:has(#local-search-input:focus)
     border: solid $headerHv 1.5px !important;
     font-size: 20px;
+    .search-icon
+        font-size: 16px
+    .local-search-result-cls
+        &:has(.search-result-list),
+        &:has(.local-search-empty)
+            display: block
 
 
 /************ for other media **************/
@@ -198,7 +211,7 @@ $sideW = 80vw
             width: auto
             position: relative
             line-height: 75px
-        
+            user-select: none
         /*************** order ***********/
         .site-name
             order: 1
