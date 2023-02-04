@@ -1,8 +1,8 @@
 ---
 title: 'Friends Season1: 03 Words&Expressions'
 date: 2023-01-16 20:48:23
-tags: [Friends, TV Series]
-categories: Learn Words
+tags: [Friends, TV Series, words, expressions]
+categories: expn
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202301241045033.jpg
 ---
 

@@ -24,7 +24,7 @@ menu:
         path: /categories/Essay
         ico: feather
       English:
-        path: /categories/Learn-Words
+        path: /categories/expn
         ico: language
   About:
     path: "#"
@@ -58,6 +58,11 @@ menu:
 
 # Avatar 头像
 avatar: https://s1.ax1x.com/2020/04/17/JEjcB8.png
+# Site logo, if true, it replace the place of site name 
+# by using image or svg 
+logo: 
+  on: true
+  url: /img/o_oyao.svg
 
 #是否开启“关于我”
 aboutme: "&nbsp;&nbsp;The Jigsaw puzzle is incomplete with even one missing piece. And I want to be the last piece to make the puzzle complete."

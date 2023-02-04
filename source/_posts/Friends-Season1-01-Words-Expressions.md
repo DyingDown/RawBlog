@@ -1,8 +1,9 @@
 ---
 title: 'Friends Season1: 01 Words&Expressions'
 date: 2023-01-15 15:07:29
-tags: [Friends, TV Series]
-categories: Learn Words
+tags: [Friends, TV Series, words, expressions]
+categories: expn
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202301241045033.jpg
 ---
 
 > hump 
