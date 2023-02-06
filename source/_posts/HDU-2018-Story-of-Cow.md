@@ -5,6 +5,7 @@ tags: [Force, HDU, Regular Pattern]
 categories: ACM
 main: Force
 description: Let's stimulate the situation by ourselves first.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302052022003.jpg
 ---
 
 # [Story of Cow](http://acm.hdu.edu.cn/showproblem.php?pid=2018)

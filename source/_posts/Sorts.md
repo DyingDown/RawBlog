@@ -3,6 +3,7 @@ title: Sorts
 date: 2020-01-16 03:39:27
 tags: Project
 categories: Data Structure
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051722999.jpg
 ---
 
 Here are some sorting ways and I use many data to test and compare. Just to illustrate the property of each algorithm.

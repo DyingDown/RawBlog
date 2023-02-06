@@ -5,6 +5,7 @@ tags: [HDU, Problem, Math, GCD]
 categories: ACM
 main: Math
 description: This problem is gcd or lcm problem. 
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051739586.jpg
 ---
 
 # [Worker](http://acm.hdu.edu.cn/showproblem.php?pid=6576)

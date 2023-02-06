@@ -5,6 +5,7 @@ tags: [HDU, Problem, Sort]
 categories: ACM
 main: Sort
 description: Turn then into positive numbers and sort. And for each unit in array, if it’s negative originally, turn it back to negative.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302052021073.jpg
 ---
 
 # [Absolute Sort](http://acm.hdu.edu.cn/showproblem.php?pid=2020)

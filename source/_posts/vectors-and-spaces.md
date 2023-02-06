@@ -3,6 +3,7 @@ title: vectors and spaces
 date: 2019-09-03 05:45:34
 tags: vectors and spaces
 categories: Linear Algebra
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051652860.png
 ---
 
 1. intro:

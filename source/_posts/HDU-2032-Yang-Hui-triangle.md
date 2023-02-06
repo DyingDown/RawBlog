@@ -5,6 +5,7 @@ tags: [HDU, Problem, Logic]
 categories: ACM
 main: Logic
 description: As you can see from the picture, for each unit, there is...
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051750084.jpg
 ---
 
 # [Yang Hui triangle](http://acm.hdu.edu.cn/showproblem.php?pid=2032)

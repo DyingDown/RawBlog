@@ -3,6 +3,7 @@ title: Binary Tree Traversal
 date: 2019-10-21 06:57:33
 tags: Knowledge points
 categories: Data Structure
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051713329.jpg
 ---
 
 There are mainly three ways of binary tree traversal. In-order, Preorder and Post-order.

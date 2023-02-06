@@ -5,6 +5,7 @@ tags: [Search, UVALive, Binary Search]
 categories: ACM
 main: Search
 description: The core of the problem is Dichotomy which is Binary search the best range of the X.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051738601.jpg
 ---
 
 ## [Problem Description](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=5273)

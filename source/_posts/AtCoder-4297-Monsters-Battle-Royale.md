@@ -5,6 +5,7 @@ tags: [Math, AtCoder, GCD]
 categories: ACM
 main: Math
 description: Seeing the operation, we can easily think of Euclidean algorithm which is the way to calculate GCD.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051743969.jpg
 ---
 
 # [Monsters Battle Royale](https://abc118.contest.atcoder.jp/tasks/abc118_c?lang=en) 

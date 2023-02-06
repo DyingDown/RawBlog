@@ -1,10 +1,11 @@
 ---
 title: AtCoder-5039 AB Substrings
 date: 2019-11-17 11:32:55
-tags: ACM
-categories: [AtCoder, String]
+tags: [AtCoder, String]
+categories: ACM
 main: String
 description: This is to find how many strings that starts with A and ends with B and the number of AB inside the string.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051746526.png
 ---
 
 # [AB Substring](https://diverta2019.contest.atcoder.jp/tasks/diverta2019_c?lang=en)

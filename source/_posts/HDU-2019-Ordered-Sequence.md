@@ -5,6 +5,7 @@ tags: [HDU, Problem, Sort]
 categories: ACM
 main: Sort
 description: Using C++ Sort.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302052021920.jpg
 ---
 
 # [Ordered Sequence](http://acm.hdu.edu.cn/showproblem.php?pid=2019)

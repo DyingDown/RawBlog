@@ -3,6 +3,7 @@ title: Logic-proposition
 date: 2019-08-12 17:09:41
 tags: logic
 categories: Discrete Math
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051637240.jpg
 ---
 
 This is a homework of Discrete Math course and it happened a long time ago. At first, I think of a violent way that is to list all the possible situations. Somehow, I still can’t achieve this because of my confusing logic. Then a friend of mine told me an algorithm that is Shunting Yard Algorithm.

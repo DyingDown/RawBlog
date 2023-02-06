@@ -5,6 +5,7 @@ tags: [GYM, Math, Geometry, CodeForces]
 categories: ACM
 main: Math
 description: From the description above we can draw that the Voronoi Diagram is drawn not casually but with some rules and the role can only correspond to one kind of the diagram.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051735424.png
 ---
 
 ## [Problem Description](https://codeforces.com/gym/102058/problem/K)

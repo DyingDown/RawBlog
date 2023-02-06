@@ -1,10 +1,11 @@
 ---
 title: AtCoder-5165 Kleene Inversion
 date: 2019-11-22 12:20:34
-tags: ACM
-categories: [Math, AtCoder]
+tags: [Math, AtCoder]
+categories: ACM
 main: Math
 description: The answer of the problem has a regular pattern. For example, there is a sequence A and for number An in A, the number that is bigger than An has two parts
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051747519.jpg
 ---
 
 # [Kleene Inversion](https://jsc2019-qual.contest.atcoder.jp/tasks/jsc2019_qual_b?lang=en)

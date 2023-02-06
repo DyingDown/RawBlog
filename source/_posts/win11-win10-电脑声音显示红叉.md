@@ -1,7 +1,7 @@
 ---
 title: win11,win10 电脑声音显示红叉
 date: 2021-10-10 06:36:10
-tags: [error, System, Win10, Win11]
+tags: [Error, System, Win10, Win11]
 categories: Windows
 postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post20211010150636.jpg
 ---

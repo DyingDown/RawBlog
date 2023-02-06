@@ -5,6 +5,7 @@ tags: [CodeForces, STL, Map, GYM]
 categories: ACM
 main: STL
 description: Position of the house can be divided into two situation, Uphill slope and Downhill slope. And the two situations are used to calculate the Y position of the house.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051736420.jpg
 ---
 
 ## [Problem Description](https://codeforces.com/gym/102058/problem/J)

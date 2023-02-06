@@ -5,6 +5,7 @@ tags: [HDU, Problem, Other]
 categories: ACM
 main: Other
 description: No tricks but you need to be very careful or you will not be able to make it.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302052018808.jpg
 ---
 
 # [Average Score](http://acm.hdu.edu.cn/showproblem.php?pid=2023)

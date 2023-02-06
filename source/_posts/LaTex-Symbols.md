@@ -3,6 +3,7 @@ title: LaTex Symbols
 date: 2019-09-04 03:11:45
 tags: symbols
 categories: LaTex
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051702675.jpg
 ---
 
 Here are some symbols that are not used very usual and how to type it in LaTex.

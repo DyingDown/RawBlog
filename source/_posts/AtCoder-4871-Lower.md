@@ -5,6 +5,7 @@ tags: [AtCoder, Force]
 categories: ACM
 main: Force
 description: The max number = max(max number, answer).
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051745002.jpg
 ---
 
 See the original article [https://dyingdown.github.io/2019/11/17/AtCoder-4871-Lower/](https://dyingdown.github.io/2019/11/17/AtCoder-4871-Lower/)

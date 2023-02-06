@@ -5,6 +5,7 @@ tags: [String, 洛谷]
 categories: ACM
 main: String
 description: we just find the position of the character '.' and '/' and '%' and reverse the string before and after the character and omit the front zeros.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051733062.jpg
 ---
 
 ## [Number reversion](https://www.luogu.org/problem/P1553)

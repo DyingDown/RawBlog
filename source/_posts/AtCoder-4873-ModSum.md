@@ -5,6 +5,7 @@ tags: [Math, AtCoder]
 categories: ACM
 main: Math
 description: The biggest answer is that after the operation the number can remain it self.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051743203.jpg
 ---
 
 # [ModSum](https://abc139.contest.atcoder.jp/tasks/abc139_d?lang=en)

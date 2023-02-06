@@ -5,6 +5,7 @@ tags: [Force, GYM, CodeForces]
 categories: ACM
 main: Force
 description: For me, the core of the problem is to figure out how the matches carry on exactly. It's the hardest part for me.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051736105.png
 ---
 
 ## [Problem Description](https://codeforces.com/gym/101775/problem/M)

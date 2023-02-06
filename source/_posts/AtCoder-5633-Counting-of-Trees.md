@@ -5,6 +5,7 @@ tags: [Math, AtCoder, Quick pow, Permuation]
 categories: ACM
 main: Math
 description: At first I didn't understand the meaning of the problem. It means 1 is the root and the distance between the points on the first layer with the root is 1.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051747125.jpg
 ---
 
 # [Counting of Trees](https://nikkei2019-2-qual.contest.atcoder.jp/tasks/nikkei2019_2_qual_b?lang=en)

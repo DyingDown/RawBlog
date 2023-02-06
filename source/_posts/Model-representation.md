@@ -3,6 +3,7 @@ title: Model representation
 date: 2019-09-03 04:28:45
 tags: Knowledge points
 categories: Machine Learning
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051650755.jpg
 ---
 
 To describe supervised learning,we establish notation for future use.

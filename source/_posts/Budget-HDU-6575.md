@@ -5,6 +5,7 @@ tags: [HDU, Problem, Logic]
 categories: ACM
 main: Logic
 description: This is a rounding problem. Since it has only three number after the point, you just need to find the last number n and if it's more than four...
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051739956.jpg
 ---
 
 # [Budget](http://acm.hdu.edu.cn/showproblem.php?pid=6575)

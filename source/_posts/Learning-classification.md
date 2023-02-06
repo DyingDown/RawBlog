@@ -5,6 +5,7 @@ tags: Knowledge points
 categories: Machine Learning
 warning: true
 isCarousel: false
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051634205.jpg
 ---
 
 In general, any machine learning problem can be assigned to one of two broad classifications:

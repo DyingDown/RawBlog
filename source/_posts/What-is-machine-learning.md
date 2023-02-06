@@ -4,6 +4,7 @@ date: 2019-08-12 15:02:11
 tags: Knowledge points
 categories: Machine Learning
 warning: true
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051633926.jpg
 ---
 
 I’ve been preparing to learn Machine Learning for a few days, but always being delayed by some stuffs like building my blog. After beautifying the blog for a long time, I pick up my course today. Today’s course is about the introduction of Machine Learning.

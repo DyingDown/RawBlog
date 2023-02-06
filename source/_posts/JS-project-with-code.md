@@ -3,6 +3,7 @@ title: JS project with code
 date: 2019-09-03 10:24:32
 tags: Project
 categories: JavaScript
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051656517.jpg
 ---
 
 The code of the bouncing all and more projects.

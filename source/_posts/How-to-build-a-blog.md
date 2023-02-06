@@ -4,6 +4,7 @@ date: 2019-08-13 09:49:05
 categories: Blog
 tags: [Hexo, Install]
 warning: true
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051638833.png
 ---
 
 After all these days of staying up late, I finally build up my own blog by asking a big boss and searching online. The followings are some detailed contents of how I actually built it.

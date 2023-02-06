@@ -1,7 +1,7 @@
 ---
 title: Oh no! of Gnome
 date: 2020-03-25 12:20:01
-tags: error
+tags: Error
 categories: Linux
 postImage: https://s1.ax1x.com/2020/04/26/Jc1MIf.jpg
 ---

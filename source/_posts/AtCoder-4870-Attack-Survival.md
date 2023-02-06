@@ -5,6 +5,7 @@ tags: [AtCoder, Simulation]
 categories: ACM
 main: Simulation
 description: The main mission of this problem is to count each players number of right questions.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051744726.jpg
 ---
 
 # [Attack Survival](https://abc141.contest.atcoder.jp/tasks/abc141_c?lang=en)

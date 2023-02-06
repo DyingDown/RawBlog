@@ -3,6 +3,7 @@ title: Linear combination and spam
 date: 2019-09-03 15:37:59
 tags: vectors and spaces
 categories: Linear Algebra
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051701792.jpg
 ---
 
 1. combination:

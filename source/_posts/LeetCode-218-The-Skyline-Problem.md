@@ -1,7 +1,7 @@
 ---
 title: LeetCode 218. The Skyline Problem
 date: 2023-01-31 19:09:20
-tags: [STL, set, sort]
+tags: [STL, Set, Sort]
 categories: ACM
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302011033975.jpg
 main: STL

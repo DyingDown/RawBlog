@@ -5,6 +5,7 @@ tags: [HDU, Problem, Math]
 categories: ACM
 main: Math
 description: Because of selecting the same character is allowed, so the probability of one character is
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051741800.png
 ---
 
 # [String](http://acm.hdu.edu.cn/showproblem.php?pid=6572)

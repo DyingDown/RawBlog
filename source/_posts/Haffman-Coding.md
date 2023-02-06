@@ -3,6 +3,7 @@ title: Haffman Coding
 date: 2019-10-20 04:44:31
 tags: Knowledge points
 categories: Data Structure
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051711665.jpg
 ---
 
 Assume that we have a bunch of points, each point has a number means the occurrence times of the point.

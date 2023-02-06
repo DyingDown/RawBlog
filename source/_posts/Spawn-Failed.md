@@ -1,8 +1,9 @@
 ---
 title: Spawn Failed
 date: 2020-01-19 08:37:35
-tags: error
+tags: Error
 categories: Blog
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051724089.jpg
 ---
 
 Recently, I've met a problem like this when I deploying my blog. hexo d gets error.

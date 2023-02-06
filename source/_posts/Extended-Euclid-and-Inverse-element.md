@@ -3,6 +3,7 @@ title: Extended Euclid and Inverse element
 date: 2019-08-14 13:27:06
 tags: [Math, Knowledge points]
 categories: Algorithm
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051640907.jpg
 ---
 
 Today's importance is inverse element, however, inverse element calculation is based on the extended Euclid algorithm. At first, we need to know the Euclid's algorithm.

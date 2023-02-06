@@ -5,6 +5,7 @@ tags: [HDU, Problem, Logic]
 categories: ACM
 main: Logic
 description: a and b each mod 100 and the answer a + b mod 100
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051749082.jpg
 ---
 
 # [XiaoMing A+B](http://acm.hdu.edu.cn/showproblem.php?pid=2096)

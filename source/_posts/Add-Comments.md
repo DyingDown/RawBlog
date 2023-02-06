@@ -4,6 +4,7 @@ date: 2019-08-15 15:21:26
 tags: comment
 categories: Blog
 warning: true
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051646410.jpg
 ---
 
 Because of my first theme was so incomplete that I need to add many features myself. So I’ve looked for how to add comment system on the blog.

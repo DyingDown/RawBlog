@@ -1,8 +1,8 @@
 ---
 title: HDU-1412 {A}+{B}
 date: 2019-12-16 03:28:38
-tags: ACM
-categories: [Math, HDU, Mode]
+tags: [Math, HDU, Mode]
+categories: ACM
 main: Math
 postImage: https://s1.ax1x.com/2020/04/26/JgAQfI.jpg
 description: C++ has a set of very handy function for set. Here we just use UNION

@@ -6,6 +6,7 @@ categories: ACM
 main: Other
 description: "As you can easily see, for each point tower[i][j] , it has two parent points, 
 warning..."
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302052019413.png
 ---
 
 # [Number Tower](http://acm.hdu.edu.cn/showproblem.php?pid=2084)

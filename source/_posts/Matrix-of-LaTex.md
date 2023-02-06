@@ -3,6 +3,7 @@ title: Matrix of LaTex
 date: 2019-09-03 06:05:50
 tags: math notation
 categories: LaTex
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051653201.jpg
 ---
 
 In order to post my note of linear algebra, I need to know how to put matrix using LaTex. The followings are the usage.

@@ -5,6 +5,7 @@ tags: [HDU, Problem, Simulation]
 categories: ACM
 main: Simulation
 description: Just stimulate the rule of clock time addition.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051750997.png
 ---
 
 # [Clock time A + B](http://acm.hdu.edu.cn/showproblem.php?pid=2033) 

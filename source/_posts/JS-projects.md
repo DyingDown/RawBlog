@@ -3,6 +3,7 @@ title: JS projects
 date: 2019-09-03 09:06:14
 tags: Project
 categories: JavaScript
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051654715.jpg
 ---
 
 I’ve learnt Processing JavaScript a little and have some complete projects. They are very simple but I think they are not ugly.

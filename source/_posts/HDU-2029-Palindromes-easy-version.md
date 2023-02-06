@@ -5,6 +5,7 @@ tags: [String, HDU]
 categories: ACM
 main: String
 description: Using C++ 11 features. reverse. Another way is is find the middle of the string and travers from both side. Compare one by one.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051751555.jpg
 ---
 
 # [Palindromes_easy version](http://acm.hdu.edu.cn/showproblem.php?pid=2029)

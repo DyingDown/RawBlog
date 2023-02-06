@@ -4,6 +4,7 @@ date: 2019-08-15 14:12:16
 tags: theme
 categories: Blog
 warning: true
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051644243.jpg
 ---
 
 Last time I‘ve talked about how to build your own blog, however, the original theme might not very beautiful to you. So this time I would write how to change your blog theme and others.

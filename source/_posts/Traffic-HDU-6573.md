@@ -5,6 +5,7 @@ tags: [HDU, Problem, Logic]
 categories: ACM
 main: Logic
 description: "There is a fuzzy point in the description. That is all the car has to wait the same amount of time. For example,"
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051740396.jpg
 ---
 
 # [Traffic](https://vjudge.net/problem/2578583/origin)
