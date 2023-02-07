@@ -4,6 +4,7 @@ date: 2021-10-07 12:53:38
 tags: Lexical Analyzer
 categories: Database Project
 postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post/20211007212737.jpg
+isCarousel: true
 ---
 
 数据库项目目前实现了一个简单的词法分析器，其中就是读取SQL语句中的字符，把他们转换成相应的Token。

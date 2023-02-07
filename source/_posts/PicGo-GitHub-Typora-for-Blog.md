@@ -4,6 +4,7 @@ date: 2021-08-31 12:54:40
 tags: [GitHub, PicGo, Typora]
 categories: Image Host
 postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post/20210831215411.jpg
+isCarousel: true
 ---
 
 Recently, while trying to accelerate my blog load speed, I also want to get all my pictures a cdn. Also I’m tired of uploading the picture every time I want to quote a picture in my post, So I found a  softeware **PicGo**.

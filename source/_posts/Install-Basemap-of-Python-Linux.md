@@ -4,6 +4,7 @@ date: 2020-02-05 15:03:58
 tags: Install
 categories: Python
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051729889.jpg
+isCarousel: true
 ---
 
 `Basemap` is a plug-in of `matplotlib`. `Matplotlib` is a drawing library that helps to draw data in multiple ways using python. And `Basemap` is used to draw maps. The followings are steps to install `basemap`.

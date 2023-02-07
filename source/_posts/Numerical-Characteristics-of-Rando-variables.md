@@ -4,6 +4,7 @@ date: 2020-01-02 10:23:46
 tags: Knowledge points
 categories: Probability and Statistics
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302051721626.jpg
+isCarousel: true
 ---
 
 第四章 随机变量的数字特征

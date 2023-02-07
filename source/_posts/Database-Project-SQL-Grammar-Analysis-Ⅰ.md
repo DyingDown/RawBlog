@@ -4,6 +4,7 @@ date: 2021-10-11 03:01:04
 tags: Grammar
 categories: Database Project
 postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post20211020114205.jpg
+isCarousel: true
 ---
 
 This is a **very simple** version of SQL grammar. For the sake of time, I just write some very basic usage.
