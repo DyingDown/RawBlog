@@ -3,7 +3,7 @@ title: Scenery
 date: 2020-05-03 01:12:27
 tags:
 categories: Essay
-postImage: https://s1.ax1x.com/2020/05/03/YpG8UK.png
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302082216105.jpg
 color: '123400'
 ---
 

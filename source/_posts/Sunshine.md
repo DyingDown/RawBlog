@@ -3,7 +3,7 @@ title: Sunshine
 date: 2020-05-02 21:50:54
 tags: no
 categories: Essay
-postImage: https://s1.ax1x.com/2020/05/03/YpN3sH.png
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302082213705.jpg
 color: 'ff9ebd'
 ---
 

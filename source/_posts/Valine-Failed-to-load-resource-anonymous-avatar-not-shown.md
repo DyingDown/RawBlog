@@ -7,13 +7,13 @@ postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302072153686.j
 warning: true
 ---
 
-Recently, I found my blog comment system can't be used, with an error shown `Failed to load resource: net::ERR_NAME_NOT_RESOLVED`. And after fixing that, the avatar for anonymous user also not shown.
+Recently, I found valine can't be used, with an error showing `Failed to load resource: net::ERR_NAME_NOT_RESOLVED`. And the avatar for the anonymous user is also not shown.
 
 <!--more-->
 
 ## Failed to load resource
 
-After seeing the console, I found that I'm requesting the url `https://us.leancloud.cn`. Because I used the national version of leancloud, but the `valine.min.js` uses cn as suffix. 
+After seeing the console, I found that I'm requesting the URL `https://us.leancloud.cn`. Because I used the national version of leancloud, but the `valine.min.js` uses *cn* as suffix. 
 
 ### Modify comment file
 

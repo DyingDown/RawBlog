@@ -3,7 +3,7 @@ title: Pain
 date: 2020-05-05 12:12:34
 tags:
 categories: Essay
-postImage: https://s1.ax1x.com/2020/05/05/YkSsG6.png
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302082159641.jpg
 color: '00897B'
 ---
 
