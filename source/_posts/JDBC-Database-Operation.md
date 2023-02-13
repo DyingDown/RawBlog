@@ -103,6 +103,8 @@ Now we can use them to do insert, update, delete SQL statement.
 
 4. execute SQL using `PreparedStatement.execute()`
 
+   if is an select statement, it returns true, if it is an insert, delete or update statement, it returns false.
+
 5. close resource.
 
 ```java
