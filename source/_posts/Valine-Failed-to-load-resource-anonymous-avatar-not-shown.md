@@ -7,7 +7,7 @@ postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302072153686.j
 warning: true
 ---
 
-Recently, I found valine can't be used, with an error showing `Failed to load resource: net::ERR_NAME_NOT_RESOLVED`. And the avatar for the anonymous user is also not shown.
+Recently, I found valine has an error showing `Failed to load resource: net::ERR_NAME_NOT_RESOLVED`. And the anonymous user avatar is also not shown.
 
 <!--more-->
 

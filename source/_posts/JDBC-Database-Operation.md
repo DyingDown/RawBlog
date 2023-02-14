@@ -158,7 +158,7 @@ The difference between the previous method and this is that `SELECT` query need 
 6. close resource.
 
 ```java
-public <T> List<T> queryForCustomers(Class<T> clazz, String sql, Object... args) {
+public <T> List<T> queryForList(Class<T> clazz, String sql, Object... args) {
     Connection conn = null;
     PreparedStatement ps = null;
     ResultSet rs = null;
@@ -191,7 +191,7 @@ public <T> List<T> queryForCustomers(Class<T> clazz, String sql, Object... args)
                 field.setAccessible(true);
                 field.set(t, columnValue);
             }
-            list.add(T);
+            list.add(t);
         }
         return list;
     } catch (Exception e) {
