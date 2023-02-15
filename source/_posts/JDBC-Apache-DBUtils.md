@@ -3,7 +3,7 @@ title: JDBC Apache-DBUtils
 date: 2023-02-13 23:38:24
 tags: [Java, Database, Apache-DBUtils]
 categories: JDBC
-postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302140117758.jpg
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302141433872.jpg
 ---
 
 This article is note about learning Apache-DBUtils.
@@ -54,7 +54,7 @@ This article is note about learning Apache-DBUtils.
    String sql = "select count(*) from customers";
    ScalarHandler handler = new ScalarHandler();
    Long cout = runner.query(conn, sql, handler);
-    ```
+   ```
 
 4. self define
 
