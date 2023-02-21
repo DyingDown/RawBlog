@@ -1,7 +1,7 @@
 ---
-title: Spring Framework 5.0 Overview
+title: Spring Framework 6.0 Overview
 date: 2023-02-14 10:33:35
-tags: [Java, Spring5, Java EE]
+tags: [Java, Spring6, Java EE]
 categories: [Spring]
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302141431145.jpg
 ---
@@ -56,6 +56,127 @@ download here: [https://spring.io/projects/spring-framework#learn](https://sprin
    
    ```
 
-   
+   Then click this to refresh, maven will install the dependencies, if not, try this command `mvn clean install -U`
 
+   <img src="https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302141605336.png" style="zoom:67%;" />
+
+3. create a package and class and write some simple code.  For example: 
+
+   ```java
+   package com.yao.spring6;
    
+   public class User {
+   
+       public void add() {
+           System.out.println("add ...");
+       }
+       
+       public User() {
+           System.out.println("Constructor function ran.");
+       }
+   }
+   ```
+
+4. create config file for spring
+
+   create a `xxx.xml` file in `source` under the  package directory you just created. New->XML Configuration File->Spring Config
+
+   ```xml
+   <?xml version="1.0" encoding="UTF-8" ?>
+   <beans xmlns="http://www.springframework.org/schema/beans"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+   </beans>
+   ```
+
+## Create Class Object using xml
+
+### Create
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    create a User object-->
+    <bean id="user" class="com.yao.spring6.User"></bean>
+</beans>
+```
+
+The `id` a unique identify, `class` is package path + class Name
+
+### Test
+
+Then we can write test to test if it works.
+
+1. load spring configuration file
+
+   ```java
+   ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+   ```
+
+2. get object
+
+   ```java
+   User user = (User) context.getBean("user");
+   System.out.println(user);
+   ```
+
+3. call the method
+
+   ```java
+   user.add();
+   ```
+
+So here is the total ways of test, the following is the complete code.
+
+```java
+package com.yao.spring6;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestUser {
+
+    @Test
+    public void testUserObject() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+
+        User user = (User) context.getBean("user");
+        System.out.println(user);
+
+        user.add();
+    }
+}
+```
+
+## Summary
+
+Let's look at the out put of the test
+
+```
+Constructor function ran.
+com.yao.spring6.User@1786f9d5
+add ...
+```
+
+First we can see the constructor executed.
+
+Then, how does the object created? Think of the way the object can be created. Apparently, the object is created using reflection.
+
+reflection: 
+
+1. load the `bean.xml` file
+
+2. parse the file
+
+3. get the `id` and `class` of `bean` tag 
+
+4. using reflection to create the object
+
+   ```java
+   Class clazz = Class.forName("com.yao.spring6.User");
+   User user = (User) clazz.getDeclaredConstructor().newInstance();
+   ```
