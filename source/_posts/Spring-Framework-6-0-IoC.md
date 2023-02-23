@@ -8,6 +8,8 @@ postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302211617592.j
 
 Note of learning Ioc Introduction.
 
+<!--more-->
+
 ## what is IoC
 
 > Inversion of Control is a principle in software engineering which transfers the control of objects or portions of a program to a container or framework. 
