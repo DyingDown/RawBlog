@@ -299,17 +299,17 @@ implement `loadBean()`
 2. get all contents of folder
 3. if content is null, return
 4. if not empty, traverse all the content
-   - if it is folder, do recursion
-   - if it's an file, get package path+class Name
-   - is file type is class
-   - if is class type, replace `\` with `.`   ,  remove `.class
-   - if the class has annotation `@Bean, instantiate using reflection
-     - get class object
-     - if it's not interface
-     - whether has @Bean or not
-     - instantiate
-   - then put the object to map
-     - if the class implements interface, use interface as key.
+   1. if it is folder, do recursion
+   2. if it's an file, get package path+class Name
+   3. is file type is class
+   4. if is class type, replace `\` with `.`   ,  remove `.class
+   5. if the class has annotation `@Bean, instantiate using reflection
+      - get class object
+      - if it's not interface
+      - whether has @Bean or not
+      - instantiate
+   6. then put the object to map
+      - if the class implements interface, use interface as key.
 
 ```java
 private void loadBean(File file) throws Exception {
