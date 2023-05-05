@@ -24,13 +24,13 @@ isCarousel: true
 
 并且还需要`hexo-server`和`hexo-browsersync`帮助预览，所以也安装
 
-```
+```bash
 yarn add hexo-server hexo-browsersync hexo-renderer-jade hexo-renderer-stylus
 ```
 
 安装完之后，再`hexo s`会出现如下的：
 
-```
+```bash
 INFO  Validating config
 INFO  Start processing
 INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
@@ -46,7 +46,7 @@ INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
 
 然后就是生成框架了。还是直接用Yeoman来自动创建一下，方便。
 
-```
+```bash
 npm install yo -g
 npm install generator-hexo-theme -g
 ```
@@ -71,7 +71,7 @@ npm install generator-hexo-theme -g
 
 好不容易解决了这个问题。然后我发现，hexo命令又不好使了。。。
 
-```
+```bash
 internal/modules/cjs/loader.js:983
   throw err;
   ^
@@ -92,7 +92,7 @@ Error: Cannot find module 'C:\Users\o_oyao\AppData\Roaming\npm\node_modules\hexo
 
 然后尝试用`npm install hexo-cli -g`，发现报错了。
 
-```
+```bash
 npm ERR! code ENOTFOUND
 npm ERR! errno ENOTFOUND
 npm ERR! network request to https://registry.npm.taobao.org/hexo failed, reason: getaddrinfo ENOTFOUND registry.npm.taobao.org
@@ -110,7 +110,7 @@ npm ERR!     C:\Users\o_oyao\AppData\Roaming\npm-cache\_logs\2020-12-19T04_21_26
 
 然而yarn给我卡在了这一步
 
-```
+```bash
 [4/4] Building fresh packages...
 [6/7] ⠐ hexo-math
 [7/7] ⠐ yo
@@ -121,13 +121,13 @@ npm ERR!     C:\Users\o_oyao\AppData\Roaming\npm-cache\_logs\2020-12-19T04_21_26
 
 接着开始尝试从新添加一边淘宝镜像
 
-```
+```bash
 npm --registry https://registry.npm.taobao.org install express
 ```
 
 再次安装，报错：
 
-```
+```bash
 npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\hexo-cli\node_modules\fsevents):
 npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
 
@@ -147,13 +147,13 @@ npm ERR!     C:\Users\o_oyao\AppData\Roaming\npm-cache\_logs\2020-12-19T04_32_40
 
 仔细阅读报错（虽然完全读不懂），但是我发现里面有一句话：`with --force to overwrite files recklessly`。然后结合前面的报错，说什么什么已存在（明明不存在啊。。。），然后就觉得，既然它认为存在，那就强制overwrite一下呗。
 
-```
+```bash
 npm install hexo-cli -g --force
 ```
 
 然后，果然成功了！！！！
 
-```
+```bash
 npm WARN using --force I sure hope you know what you are doing.
 C:\Users\o_oyao\AppData\Roaming\npm\hexo -> C:\Users\o_oyao\AppData\Roaming\npm\node_modules\hexo-cli\bin\hexo
 + hexo-cli@4.2.0
@@ -166,13 +166,13 @@ added 66 packages from 338 contributors in 7.271s
 
 ## yo创建框架
 
-```
+```bash
 yo hexo-theme
 ```
 
 第三步会让你选，你要什么什么东西，反正我也没看懂，也不知道到底有什么用，记得上次貌似没有遇见这个问题。然后为了保险起见，全选了。（你的话你就自己看着办了）。
 
-```
+```bash
 --=[ generator-hexo-theme ]=--
 ? What is the theme name? last
 ? Which template language to use? pug

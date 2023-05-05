@@ -24,7 +24,7 @@ postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202302141427791.j
 
    open an `cmd` window and type `mvn -v`
 
-   ```
+   ```bash
    PS C:\Users\xxx> mvn -v
    Apache Maven 3.9.0 (9b58d2bad23a66be161c4664ef21ce219c2c8584)
    Maven home: C:\apache-maven-3.9.0

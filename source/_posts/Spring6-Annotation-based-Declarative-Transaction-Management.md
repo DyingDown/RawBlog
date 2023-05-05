@@ -22,7 +22,7 @@ Then create two tables:
 
 book table:
 
-```mysql
+```sql
 create table `t_book`(
 	`book_id` int(11) not null auto_increment,
 	`book_name` varchar(20) default null,
@@ -34,7 +34,7 @@ create table `t_book`(
 
 user table:
 
-```mysql
+```sql
 create table `t_user` (
 	`user_id` int(11) not null auto_increment,
     `username` varchar(20) default null,
@@ -45,7 +45,7 @@ create table `t_user` (
 
 Add some data into the tables:
 
-```mysql
+```sql
 insert into `t_book`(`book_id`, `book_name`, `price`, `stock`) values (1, '三体', 80, 10), (2, '消失', 100, 50);
 insert into `t_user` (`user_id`, `username`, `balance`) values (1, 'lucy', 500);
 ```

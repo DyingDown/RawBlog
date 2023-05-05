@@ -31,7 +31,7 @@ And for each non-leaf node, since you already know the function of the tree, you
 
 Let’s take `Create Table` for example:
 
-```
+```C++
 #include <iostream>
 #include "SQLColumnDefine.h"
 #include <vector>

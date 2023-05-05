@@ -10,3 +10,4 @@ Note of learning resource operation.
 
 <!--more-->
 
+## Intro

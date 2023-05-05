@@ -19,7 +19,7 @@ After seeing the console, I found that I'm requesting the URL `https://us.leancl
 
 In order to change that, I need to specify the `serverURLs` when initiating the `Valine` object.
 
-```jade
+```js
 window.valine = new Valine({
     el:'#vcomment',
     notify:notify,

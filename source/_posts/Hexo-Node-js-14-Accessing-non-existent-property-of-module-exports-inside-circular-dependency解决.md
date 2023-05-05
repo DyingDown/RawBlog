@@ -10,7 +10,7 @@ postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post20211126
 
 ## 问题
 
-```
+```bash
 INFO  Hexo is running at http://localhost:4000 . Press Ctrl+C to stop.
 (node:11276) Warning: Accessing non-existent property 'lineno' of module exports inside circular dependency
 (Use `node --trace-warnings ...` to show where the warning was created)

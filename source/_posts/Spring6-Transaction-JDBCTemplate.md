@@ -87,7 +87,7 @@ Then crate an JDBC object.
 
 Then lets create a database to test the crud operations.
 
-```mysql
+```sql
  create table `t_emp` (
      `id` INT(11) NOT NULL AUTO_INCREMENT,
      `name` VARCHAR(20),
