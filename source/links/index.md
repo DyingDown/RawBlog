@@ -37,6 +37,10 @@ links:
       img: 	https://s1.ax1x.com/2020/07/16/UDgaZ9.jpg
       name: Phoenix
       description: 一定要完成自己的梦想！
+    - url: https://hexo-theme-last.github.io/
+      img: 	https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202304301831010.jpeg
+      name: hexo-theme-last
+      description: Demo Of Last Theme.
   - group_name: 学长
     description: They are the best!
     items:
