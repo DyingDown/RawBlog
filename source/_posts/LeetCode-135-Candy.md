@@ -5,7 +5,7 @@ tags: [Array, Greedy]
 categories: ACM
 description: This problem can be see as finding peak and valley.
 main: Greedy
-isCarousel: false
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202306212039909.gif
 ---
 
 ## Problem Description

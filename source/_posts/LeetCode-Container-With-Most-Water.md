@@ -1,10 +1,11 @@
 ---
 title: LeetCode-Container With Most Water
 date: 2020-09-06 03:15:42
-tags: [LeetCode, Two pointers, Logic]
+tags: [LeetCode, Two Pointers, Logic]
 main: Logic
 categories: ACM
 description: If we combine the left search with the right search, we need to make the lines with shorter height move.
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202306212039909.gif
 ---
 
 ## Problem Description
