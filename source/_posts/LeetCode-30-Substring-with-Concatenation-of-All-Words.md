@@ -1,7 +1,7 @@
 ---
 title: LeetCode 30. Substring with Concatenation of All Words
 date: 2023-06-23 23:24:39
-tags: [Sliding Window, Hash Table, SW]
+tags: [Sliding Window, HashMap, SW]
 categories: ACM
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202306240059887.png
 description: Because all the words are the same length, we can use hash map to check for substring from index i to index i +word length  * words number.
