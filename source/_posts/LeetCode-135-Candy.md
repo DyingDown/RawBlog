@@ -3,7 +3,7 @@ title: LeetCode 135. Candy
 date: 2023-06-20 21:13:06
 tags: [Array, Greedy]
 categories: ACM
-description: This problem can be see as finding peak and valley.
+description: This problem can be see as finding peak and valley. And we need to start checking the peak in order to remove the redundant count.
 main: Greedy
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202306212039909.gif
 ---

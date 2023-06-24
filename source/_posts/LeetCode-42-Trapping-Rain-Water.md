@@ -4,7 +4,7 @@ date: 2023-06-21 16:49:47
 tags: [Array, Two Pointers, 2P, DP]
 categories: ACM
 main: 2P
-description: We can calculate the water amount by columns. 
+description: We can calculate the water amount by columns. For position i, the water it can contains is based on the left max height column and the right max height columns. 
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202306212037039.jpg
 ---
 
