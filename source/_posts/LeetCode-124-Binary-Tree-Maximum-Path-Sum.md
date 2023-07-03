@@ -3,7 +3,7 @@ title: LeetCode 124. Binary Tree Maximum Path Sum
 date: 2023-07-01 20:00:44
 tags: [Binary Tree, Tree, DFS]
 categories: [ACM]
-postImage:
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202307030051719.jpg
 description: To find the maximum path sum in a binary tree, we can use a recursive approach. The idea is to traverse the tree in a bottom-up manner and calculate the maximum path sum for each node.
 main: DFS
 ---
