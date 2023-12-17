@@ -4,6 +4,7 @@ date: 2020-05-08 06:55:13
 tags: Valine
 categories: Blog
 postImage: https://s1.ax1x.com/2020/05/08/Yu8Jvd.jpg
+warning: true
 ---
 
 Valine is a comment system for blog or something else. It uses leancloud to store the message. And the tougher valine has a function that can reply the comment by email and locate to a certain page.
