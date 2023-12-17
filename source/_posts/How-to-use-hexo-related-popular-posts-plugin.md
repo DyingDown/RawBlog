@@ -5,6 +5,7 @@ tags: [Install, Hexo Plugin]
 categories: Blog
 postImage: https://s1.ax1x.com/2020/08/07/aRqmBd.jpg
 description: This article records my experience of using the hexo related popular posts plugin. And how to modify the plugin to make it suitable for my theme.
+warning: true
 ---
 
 ## Install
