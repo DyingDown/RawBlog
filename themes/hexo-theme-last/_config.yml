@@ -74,7 +74,7 @@ themeColor:
 
 archiveStyle:
   style: comment-shape # comment-shape, normal
-  type: split # basic, split, center
+  type: center # basic, split, center
   # color: 
 
 # categories & tags
@@ -110,7 +110,8 @@ carousel:
     opacity: 0.5 # float number 0 - 1 eg. 0.55
   blur:
     on: true
-    px: 10
+    px: 20
+    frostedGlassCard: true
   textColor: "#fff" # Hex or color name 16进制的颜色或者颜色名字
 
 # Search Function
@@ -236,7 +237,7 @@ PostDefaultImage: https://s1.ax1x.com/2020/04/25/J6iz9K.jpg
 
 # Content may be out of date reminder 文章内容可能过期提醒
 # Or you can use it in your md file 
-# Warning: true  # write this in your md file
+# warning: true  # write this in your md file
 Warning:
   on: false # if is true, every article have this note 如果选择true，所有的文章都带有提示信息
   Days: 30 # Day,  after these days, your post will show out of date content

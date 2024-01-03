@@ -110,12 +110,12 @@ deploy:
   repo: git@github.com:DyingDown/dyingdown.github.io.git
   branch: master
 
-markdown:
-  render:
-    html: true
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
+# markdown:
+#   render:
+#     html: true
+#   plugins:
+#     - markdown-it-abbr
+#     - markdown-it-footnote
   
 # whether the hexo-generator-index2 include the offical hexo-generator-index, default is true
 index2_include_index: true # defult is true
