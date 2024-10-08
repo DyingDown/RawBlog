@@ -5,7 +5,7 @@ tags: [Dynamic Programming, Knowledge points]
 categories: Algorithm
 postImage: https://s1.ax1x.com/2020/09/23/wX2BfU.jpg
 description: I've been studied 01 Package for so many times. But I keep forgetting it. It costs me so many energy every time I learn, especially for the optimization of space complexity. So I take notes this time.
-isCarousel: true
+isCarousel: false
 ---
 
 ## Question
