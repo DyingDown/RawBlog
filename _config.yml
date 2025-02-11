@@ -71,7 +71,7 @@ index_generator:
 default_category: uncategorized
 category_map:
 category_generator:
-  per_page: 12
+  per_page: 15
 tag_map:
 
 # Metadata elements

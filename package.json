@@ -30,5 +30,8 @@
     "hexo-theme-landscape": "^0.0.3",
     "hexo-theme-next": "^8.14.1",
     "requirejs": "^2.3.6"
+  },
+  "overrides": {
+    "glob": "7.2.0"
   }
 }
