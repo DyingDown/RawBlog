@@ -331,12 +331,22 @@ postStyle:
 
 - `contentStyle`：文章页面的样式选项
 
+
 	=== "github"
 		![post-github.png](../assets/images/config/post-github.png)
+
 	=== "music"
 		![post-music.png](../assets/images/config/post-music.png)
+		
 	=== "microsoft"
 		![post-microsoft.png](../assets/images/config/post-microsoft.png)
+
+	=== "lapis"
+		![post-microsoft.png](../assets/images/config/post-lapis.png)
+
+	=== "gitbook"
+		![post-microsoft.png](../assets/images/config/post-gitbook.png)
+  
 
 - `color`：文章页面的主题颜色
 
@@ -436,7 +446,7 @@ SideButtons:
 === "both"
 
     <img src="../assets/images/config/navigation-buttons-both.png" style="zoom: 47%;" />
-    
+
 === "word"
 
     <img src="../assets/images/config/navigation-buttons-text.png" style="zoom: 47%;" />
@@ -454,18 +464,15 @@ SideButtons:
 ScrollBar:
   style: "bicolor" # "bicolor", "simple", "gradient"
   color: "theme" # "default" "theme" "#459798"
-  radius: 10 # 0~xxx px, 
+  shape: "square" # "square", "round"
   gradient:
     color1: "skyblue"
     color2: "purple"
 ```
 
 - 滚动条有三种样式
-
 - `color`: 可以自定义滚动条颜色，或者使用"theme"就跟随主题的颜色
-
-- `radius`: 设置滚动条的圆角度数，0表示没有圆角
-
+- `shape`: 滚动条形状，圆角或者方形
 - `gradient`: 滚动条会从`color1`渐变到`color2`
 
 === "bicolor"
