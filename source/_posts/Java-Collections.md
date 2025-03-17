@@ -3,8 +3,8 @@ title: Java Collections
 date: 2025-03-06 23:25:21
 tags: [Java, Key Points, Collection]
 categories: [Java]
-postImage:
-description:
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202503171724717.png
+description: This article explores Java Collections and Map frameworks, detailing data structures like Lists, Sets, Queues, and Maps — essential for effective data management and manipulation in Java.
 warning: fals
 isCarousel: false
 ---

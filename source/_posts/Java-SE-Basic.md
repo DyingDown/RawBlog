@@ -3,10 +3,10 @@ title: Java SE Basic
 date: 2025-03-04 22:09:12
 tags: [Java, Basic, Key Points]
 categories: [Java]
-postImage:
-description: Basic Java key points to know for interview.
-warning: No
-isCarousel: No
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202503171607167.png
+description: This article covers essential Java concepts like memory management, data types, object behavior control, and access modifiers, providing a solid foundation for learning and interview preparation.
+warning: false
+isCarousel: false
 ---
 
 ## Java Memory

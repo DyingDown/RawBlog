@@ -4,7 +4,7 @@ date: 2025-03-11 15:21:36
 tags: [Java, Thread, Key Points]
 categories: Java
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202503120010395.png
-description: Key points to know about thread class for Java interview.
+description: This article dives into Java threading concepts, covering thread creation, lifecycle, synchronization, and thread safety — essential for writing efficient, concurrent, and deadlock-free programs.
 warning: false
 isCarousel: true
 ---

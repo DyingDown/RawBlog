@@ -3,7 +3,7 @@ title: Java OOP
 date: 2025-03-05 23:21:45
 tags: [Java, OOP, Key Points]
 categories: Java
-postImage:
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202503171624063.png
 description: Key points of Java OOP pillars, Abstract, Polymorphism, Inheritance, Encapsulation. And also about Interface and abstract class.
 warning: false
 isCarousel: false

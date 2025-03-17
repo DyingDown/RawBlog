@@ -4,7 +4,7 @@ date: 2025-03-12 15:49:19
 tags: [MySQL, SQL, Key points]
 categories: SQL
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202503130121808.jpg
-description: Key points of SQL for interview.
+description: This article covers the fundamentals of data modeling, including keys, relationships, attributes, normalization, dependencies, and data integrity, as well as the differences between relational and non-relational databases and constraints in database design.
 warning: false
 isCarousel: false
 ---
