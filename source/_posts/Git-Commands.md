@@ -110,6 +110,12 @@ Check the difference between working section and the newest edition in repositor
 git diff HEAD -- filename
 ```
 
+This high light the change in words
+
+```bash
+git diff --color-words
+```
+
 ### Version
 
 Check the submit history
@@ -319,6 +325,12 @@ git cherry-pick commit_id
 
 ### Remote
 
+Add remote
+
+```bash
+git remote add <name> <url>
+```
+
 Check remote information
 
 ```bash
@@ -377,10 +389,22 @@ git tag tag_name
 git tag tag_name -m "description"
 ```
 
+Tag to a specific commit
+
+```bash
+git tag -a v1.0 <SHA>
+```
+
 Check for tags information
 
 ```bash
 git show tag_name
+```
+
+See all tags
+
+```bash
+git tag --list
 ```
 
 ### Operate tags
@@ -398,7 +422,7 @@ git push origin tag_name
 git push origin --tags
 ```
 
-Deleter a tag from remote repository
+Delete a tag from remote repository
 
 ```bash
 git tag -d tag_name
