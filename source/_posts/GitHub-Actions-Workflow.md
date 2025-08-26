@@ -1,9 +1,9 @@
 ---
 title: GitHub Actions Workflow
 date: 2025-07-14 22:16:26
-tags: [GitHub Action, Triggers, Job, Artifacts]
+tags: [GitHub Action, Workflow, Triggers, Job, Artifacts]
 categories: [GitHub, CI/CD]
-postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202507142340523.jpg
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202507151546046.png
 warning: True
 isCarousel: false
 ---
@@ -94,6 +94,16 @@ Run on a fixed schedule (UTC cron syntax):
 on:
   schedule:
     - cron: '0 0 * * 0'  # Every Sunday at midnight
+```
+
+### 5. `check-run`
+
+you can configure a workflow to run when specific webhook events occur on GitHub. You can trigger most webhook events from more than one activity for a webhook. If multiple activities exist for a webhook, you can specify an activity type to trigger the workflow.
+
+```yaml
+on:
+  check_run:
+    types: [rerequested, requested_action]
 ```
 
 ## Jobs and Steps

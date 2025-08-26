@@ -5,7 +5,7 @@ title: >-
 date: 2025-04-12 19:10:39
 tags: [Azure, AZ-900 Cert, Azure Management]
 categories: [Azure, AZ-900]
-postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202505132333632.png
+postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202507151535672.png
 description:
 warning: True
 isCarousel: False
