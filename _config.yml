@@ -148,3 +148,4 @@ algolia:
     - excerpt:strip
     - tags
     - title
+    - path
