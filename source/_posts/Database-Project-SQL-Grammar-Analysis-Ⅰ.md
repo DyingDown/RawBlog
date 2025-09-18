@@ -1,8 +1,8 @@
 ---
-title: 'Database Project: SQL Grammar Analysis Ⅰ'
+title: 'Database Engine Project: SQL Grammar Analysis Ⅰ'
 date: 2021-10-11 03:01:04
-tags: Grammar
-categories: Database Project
+tags: [SQL, Grammar]
+categories: Database Engine Project
 postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post20211020114205.jpg
 isCarousel: false
 ---

@@ -1,8 +1,8 @@
 ---
-title: 'Database Project: SQL Lexical Analyzer词法分析'
+title: 'Database Engine Project: SQL Lexical Analyzer词法分析'
 date: 2021-10-07 12:53:38
 tags: Lexical Analyzer
-categories: Database Project
+categories: Database Engine Project
 postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post/20211007212737.jpg
 isCarousel: false
 ---

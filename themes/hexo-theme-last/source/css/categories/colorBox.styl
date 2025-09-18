@@ -38,51 +38,82 @@ $on-palm: 600px
     font-size: 1px;
 
 .cols
-  float left
-  -moz-column-count: 4
-  -moz-column-gap: 0%
-  -moz-column-width: calc((100% - 40px) / 4)
-  -webkit-column-count: 4
-  -webkit-column-gap: 0%
-  -webkit-column-width: calc((100% - 40px) / 4)
-  column-count: 4
-  column-gap: 0%
-  column-width: calc((100% - 40px) / 4)
-  break-inside: avoid
-  margin-bottom: 20px
-  @media(max-width: 1500px){
-    -moz-column-count: 3
-    -moz-column-gap: 0%
-    -moz-column-width: calc((100% - 30px) / 3)
-    -webkit-column-count: 3
-    -webkit-column-gap: 0%
-    -webkit-column-width: calc((100% - 30px) / 3)
-    column-count: 3
-    column-gap: 0%
-    column-width: calc((100% - 30px) / 3)        
+  display: flex
+  flex-wrap: wrap
+  gap: 15px
+  width: 100%
+  align-items: flex-start
+  
+  // 动态列宽计算
+  &[data-count="1"] {
+    .box { flex: 0 0 100%; max-width: 500px; margin: 0 auto; }
   }
-  // @media(max-width: 800px) {
-  //   -moz-column-count: 2
-  //   -moz-column-gap: 0%
-  //   -moz-column-width: 50%
-  //   -webkit-column-count: 2
-  //   -webkit-column-gap: 0%
-  //   -webkit-column-width: 50%
-  //   column-count: 2
-  //   column-gap: 0%
-  //   column-width: calc((100% - 30px) / 3)  
-  // }
+  
+  &[data-count="2"] {
+    .box { flex: 0 0 calc(50% - 7.5px); }
+  }
+  
+  &[data-count="3"] {
+    .box { flex: 0 0 calc(33.333% - 10px); }
+  }
+  
+  &[data-count="4"], &:not([data-count]) {
+    .box { flex: 0 0 calc(25% - 11.25px); }
+  }
+  
+  // 5个或更多时使用瀑布流
+  &:not([data-count]), &[data-count]:not([data-count="1"]):not([data-count="2"]):not([data-count="3"]):not([data-count="4"]) {
+    display: block
+    column-count: 4
+    column-gap: 15px
+    column-fill: balance
+    
+    .box {
+      flex: none
+      width: 100%
+      margin: 0 0 15px 0
+      display: inline-block
+      break-inside: avoid
+      page-break-inside: avoid
+    }
+  }
+  
+  @media(max-width: 1500px) {
+    gap: 12px
+    
+    &[data-count="4"], &:not([data-count]) {
+      .box { flex: 0 0 calc(33.333% - 8px); }
+    }
+    
+    &:not([data-count]), &[data-count]:not([data-count="1"]):not([data-count="2"]):not([data-count="3"]):not([data-count="4"]) {
+      column-count: 3
+      column-gap: 12px
+    }
+  }
+  
   @media(max-width: 1000px) {
-    -moz-column-count: 1
-    -moz-column-gap: 0%
-    -moz-column-width: 100%
-    -webkit-column-count: 1
-    -webkit-column-gap: 0%
-    -webkit-column-width: 100%
-    column-count: 1
-    column-gap: 0%
-    column-width: 100%
-    // min-width colum 100%
+    gap: 15px
+    
+    &[data-count="3"], &[data-count="4"], &:not([data-count]) {
+      .box { flex: 0 0 calc(50% - 7.5px); }
+    }
+    
+    &:not([data-count]), &[data-count]:not([data-count="1"]):not([data-count="2"]):not([data-count="3"]):not([data-count="4"]) {
+      column-count: 2
+      column-gap: 15px
+    }
+  }
+  
+  @media(max-width: 600px) {
+    gap: 10px
+    padding: 0 10px
+    
+    .box { flex: 0 0 100% !important; }
+    
+    &:not([data-count]), &[data-count]:not([data-count="1"]):not([data-count="2"]):not([data-count="3"]):not([data-count="4"]) {
+      column-count: 1
+      column-gap: 10px
+    }
   }
 
 /* Again, you’re free to use and define the classes: */
@@ -95,21 +126,21 @@ $on-palm: 600px
 //   width: 25%
 
 .box
-  float left
-  break-inside: avoid
-  // display flex
-  // align-items: flex-start
-  margin: 0 5px 15px 5px
-  display: inline-block
+  width: 100%
+  margin: 0 0 15px 0
+  display: block
   border-radius: 4px
   box-shadow: 2px 2px 4px #aaa
   -webkit-box-shadow: 2px 2px 4px #aaa 
   -moz-box-shadow: 2px 2px 4px #aaa 
   color: rgba(255, 255, 255, 0.72)
+  overflow: hidden
+  transition: all 0.3s ease
+  
   &:hover
     box-shadow: 3px 3px 6px #aaa
     -webkit-box-shadow: 3px 3px 6px #aaa
-    -webkit-box-shadow: 3px 3px 6px #aaa
+    transform: translateY(-2px)
 
 .feat-image
    border-radius: 4px 4px 0 0 

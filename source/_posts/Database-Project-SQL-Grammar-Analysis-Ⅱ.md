@@ -1,8 +1,8 @@
 ---
-title: 'Database Project: SQL Grammar Analysis Ⅱ'
+title: 'Database Engine Project: SQL Grammar Analysis Ⅱ'
 date: 2021-10-13 01:23:50
 tags: [Lexical, Analyzer Grammar]
-categories: Database Project
+categories: Database Engine Project
 postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post20211020114851.jpg
 ---
 

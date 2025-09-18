@@ -1,8 +1,8 @@
 ---
-title: Database Project:Learn basic structure
+title: 'Database Engine Project: Learn basic structure'
 date: 2021-09-09 15:59:12
 tags: SQLite
-categories: Database Project
+categories: Database Engine Project
 postImage: https://cdn.jsdelivr.net/gh/dyingdown/img-host-repo/Blog/post/20210918210131.jpg
 ---
 
