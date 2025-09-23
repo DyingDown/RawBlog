@@ -30,7 +30,7 @@ I have been already made a mini database project in Go, but it has been a long t
 
 Here’s the overall system design (as of now):
 
-<img src="https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202509151049091.png" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202509181950059.png" style="zoom: 44%;" />
 
 This diagram shows how the different modules depend on each other. At the top, SQL commands enter through the **Parser → Planner → Executor** pipeline, eventually touching the lower-level layers that deal with tables, transactions, storage, and recovery.
 
@@ -58,6 +58,7 @@ So with the overall design, we can set the structure of the project:
     ├── Executor.cs
     ├── Parser.cs
     ├── Planner.cs
+    ├── SemanticAnalyzer.cs
 ├── Storage
     ├── BufferPool.cs
     ├── FileIO.cs
@@ -92,7 +93,17 @@ Users think in SQL, not in storage pages. By isolating the SQL pipeline (Parser 
 namespace LiteDatabase.Sql;
 
 class Parser {
-    private Planner planner;
+   
+}
+```
+
+#### Semantic Analyzer
+
+```c#
+namespace LiteDatabase.Sql;
+
+class SemanticAnalyzer {
+   
 }
 ```
 
@@ -102,7 +113,7 @@ class Parser {
 namespace LiteDatabase.Sql;
 
 class Planner {
-    private Executor executor;
+   
 }
 ```
 

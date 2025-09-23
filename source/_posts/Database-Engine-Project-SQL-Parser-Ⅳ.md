@@ -378,13 +378,15 @@ private InsertNode ParseInsertStatement() {
             throw new Exception("Missing '(' in INSERT statement values");
         }
         NextToken();
-
+        
+        var valuesList = new List<SqlValue>();
+        
         while (true) {
             if (currentToken?.Type is not (TokenType.INT or TokenType.FLOAT or 
                 TokenType.NULL or TokenType.TRUE or TokenType.FALSE or TokenType.STRING_LITERAL)) {
                 throw new Exception("Invalid value type");
             }
-            node.Values.Add(currentToken?.Type switch {
+            valueList.Add(currentToken?.Type switch {
                 TokenType.INT => new SqlValue(ValueType.Int, int.TryParse(currentToken.Lexeme, out int v) ? v : 0),
                 TokenType.FLOAT => new SqlValue(ValueType.Float, double.TryParse(currentToken.Lexeme, out double d) ? d : 0.0),
                 TokenType.TRUE => new SqlValue(ValueType.True, true),
@@ -401,7 +403,9 @@ private InsertNode ParseInsertStatement() {
             }
             break;
         }
-
+        
+        node.Values.Add(valuesList);
+        
         if (currentToken?.Type != TokenType.R_BRACKET) {
             throw new Exception("Missing ')' in INSERT statement values");
         }

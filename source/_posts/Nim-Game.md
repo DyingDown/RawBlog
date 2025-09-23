@@ -6,7 +6,7 @@ categories: [Algorithm]
 postImage: https://cdn.jsdelivr.net/gh/DyingDown/img-host-repo/202410211001007.jpg
 description: English&中文解释, This article discusses the classic Nim game, where players can take any number of stones from n piles, detailing the specific solutions and underlying principles.
 warning: false
-isCarousel: true
+isCarousel: false
 ---
 
 ## English Ver
