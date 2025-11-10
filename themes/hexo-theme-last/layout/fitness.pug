@@ -1,0 +1,292 @@
+extends includes/layout.pug
+
+block content
+  .fitness-container
+    //- .page-title
+    //-   h1
+    //-     i.fas.fa-dumbbell
+    //-     span 健身打卡中心
+      
+    .fitness-dashboard
+      .today-section
+        //- 用户信息卡片
+        .user-profile-card#user-profile-card
+          .user-avatar#user-avatar
+            .avatar-circle
+              i.fas.fa-user
+          .user-basic-info#user-basic-info
+            .user-name#user-display-name 未登录
+          .user-actions#user-actions
+            button#user-login-btn.btn-small 登录
+        
+        //- 用户信息详细卡片（默认隐藏）
+        .user-detail-card#user-detail-card(style="display: none;")
+          .detail-header
+            h4 个人信息
+            button.close-btn#close-user-detail ×
+          .detail-content
+            .form-group
+              label 性别:
+              select#user-gender-input
+                option(value="female") 女
+                option(value="male") 男
+            .form-group
+              label 出生日期:
+              input#user-birth-date-input(type="date")
+          .detail-actions
+            button#save-user-info-btn.btn-primary 保存
+            button#logout-btn.btn-secondary 退出登录
+        
+        .weekly-schedule-editor
+          //- h5 周训练安排
+          .days-container#weekly-editor-container
+          // 七天的训练计划编辑器会动态生成
+
+
+
+          //- LeanCloud SDK for cloud sync (optional)-header
+          //- h2#today-title 今日训练 - 周一
+          .date-controls
+            input#date-picker(type="date")
+            button#today-btn 今天
+            .sync-status#sync-status
+              i.fas.fa-cloud(title="数据同步状态")
+        
+        .daily-plan
+          .plan-header
+            //- h3 训练计划
+        
+        //- h2#today-title 今日训练 - 周一
+        .exercise-list#exercise-list
+          //- 训练项目将由 JavaScript 动态生成
+        
+        .exercise-summary
+          .summary-item
+            span.label 实际运动消耗:
+            span.value#actual-exercise-calories 0 kcal
+        
+        .nutrition-tracking
+          h3 营养摄入
+          .nutrition-form
+            .form-group
+              label 今日摄入卡路里:
+              input#calories-input(type="number" placeholder="输入摄入的卡路里")
+            .form-group
+              label 饮水量(L):
+              input#water-input(type="number" step="0.1" placeholder="输入今日饮水量")
+            button.save-nutrition-btn 保存营养数据
+
+      .statistics-section
+        h2 训练统计
+        .stats-tabs
+          button.tab-btn.active(data-tab="dashboard") 数据面板
+          button.tab-btn(data-tab="plans") 训练计划
+        
+        .tab-content
+          .tab-panel.active#dashboard-panel
+            //- 营养摄入进度区域
+            //- .nutrition-summary
+            //-   .nutrition-item
+            //-     span.label 热量缺口:
+            //-     span.value#calorie-gap 0/0 kcal
+            //-   .nutrition-item
+            //-     span.label 饮水进度:
+            //-     span.value#water-status 0.0L/3.0L
+            
+            //- 卡路里摄入和运动统计两列布局
+            .daily-stats-container
+              .calorie-progress-section
+                h4 今日卡路里摄入
+                .progress-container
+                  .circular-progress#calorie-progress
+                    .progress-circle
+                      .progress-text
+                        .current-intake 0
+                        .recommended /2000
+                        .unit kcal
+                  .progress-info
+                    .info-item
+                      span.label 已摄入:
+                      span.value#current-calories 0 kcal
+                    .info-item
+                      span.label 推荐摄入:
+                      span.value#recommended-calories 2000 kcal
+                    .info-item
+                      span.label 还能摄入:
+                      span.value#remaining-calories 2000 kcal
+              
+              .workout-stats-section
+                h4 今日运动统计
+                .workout-progress
+                  .circular-progress#workout-progress
+                    .progress-circle
+                      .progress-text
+                        .completion-rate 0%
+                        .subtitle 完成率
+                  .workout-info
+                    .info-item
+                      span.label 总时长:
+                      span.value#total-duration 0 分钟
+                    .info-item
+                      span.label 已完成:
+                      span.value#completed-exercises 0/0 项
+                    .info-item
+                      span.label 运动消耗:
+                      span.value#exercise-calories 0 kcal
+            
+            //- 个人健康信息区域
+            .health-info-section
+              .section-header
+                h4 个人健康信息
+                button#add-health-info-btn.btn-small 录入数据
+              .health-display#health-display
+                .no-data 暂无健康数据，请点击录入
+              
+              //- 健康数据录入表单（隐藏）
+              .health-form#health-form(style="display: none;")
+                .form-group
+                  label 体重 (kg):
+                  input#weight-input(type="number" step="0.1" placeholder="例: 65.5" required)
+                .form-group
+                  label 身高 (cm):
+                  input#height-input(type="number" placeholder="例: 170" required)
+                .form-group
+                  label 体脂率 (%) - 可选:
+                  input#body-fat-input(type="number" step="0.1" placeholder="例: 18.5 (可选)")
+                .form-actions
+                  button#save-health-btn.btn-primary 保存
+                  button#cancel-health-btn.btn-secondary 取消
+            
+            //- 目标设定区域
+            .goal-section
+              .section-header
+                h4 减重目标
+                button#set-goal-btn.btn-small 设置目标
+              .goal-display#goal-display
+                .no-goal 未设置减重目标
+              
+              //- 目标设定表单（隐藏）
+              .goal-form#goal-form(style="display: none;")
+                .form-group
+                  label 目标体重 (kg):
+                  input#target-weight-input(type="number" step="0.1" placeholder="例: 60.0")
+                .form-group
+                  label 目标日期:
+                  input#target-date-input(type="date")
+                .form-actions
+                  button#save-goal-btn.btn-primary 保存目标
+                  button#cancel-goal-btn.btn-secondary 取消
+            
+            //- 体重趋势图区域
+            .weight-trend-section
+              .section-header
+                h4 体重趋势
+                .trend-controls
+                  button.trend-btn.active(data-period="7") 周
+                  button.trend-btn(data-period="30") 月
+                  button.trend-btn(data-period="90") 季
+                  button.trend-btn(data-period="365") 年
+                  button.trend-btn(data-period="all") 总
+                .view-records-btn
+                  button#view-health-records-btn.btn-small 查看记录
+              .chart-container
+                canvas#weight-trend-chart(width="600" height="300")
+            
+            //- 训练热力图区域
+            .heatmap-section
+              //- .heatmap-container
+              h4 年度训练热力图
+              .heatmap-legend
+                span 超出
+                .legend-scale
+                  .legend-item.level--4
+                  .legend-item.level--3
+                  .legend-item.level--2
+                  .legend-item.level--1
+                  .legend-item.level-0
+                  .legend-item.level-1  
+                  .legend-item.level-2
+                  .legend-item.level-3
+                  .legend-item.level-4
+                span 缺口
+              .heatmap-wrapper
+                .heatmap-months#heatmap-months
+                  //- 月份标注将由 JavaScript 生成
+                .heatmap-content
+                  .heatmap-weekdays
+                    .weekday-label 一
+                    .weekday-label
+                    .weekday-label 三
+                    .weekday-label
+                    .weekday-label 五
+                    .weekday-label
+                    .weekday-label 日
+                  .heatmap-grid#heatmap-grid
+                    //- 热力图将由 JavaScript 生成
+          
+          .tab-panel#plans-panel
+            .plans-management
+              .plans-header
+                h3 训练计划管理
+                .plan-actions
+                  button#create-plan-btn.btn-primary 创建新计划
+                  button#use-default-plan-btn.btn-secondary 使用默认计划
+              
+              .current-plan-section
+                h4 当前活跃计划
+                .plan-card.active#current-plan-display
+                  .plan-info
+                    .plan-name 正在加载...
+                    .plan-details
+                      span.start-date 生效日期: --
+                      span.plan-status 状态: --
+                  .plan-controls
+                    button#edit-current-plan-btn.btn-outline 编辑
+                    button#duplicate-plan-btn.btn-outline 复制
+              
+              .plans-history
+                h4 历史计划
+                .plans-list#plans-history-list
+                  .empty-state 暂无历史计划
+              
+              .plan-editor#plan-editor(style="display: none;")
+                .editor-header
+                  h4#editor-title 创建训练计划
+                  .editor-actions
+                    button#save-plan-btn.btn-primary 保存计划
+                    button#cancel-edit-btn.btn-secondary 取消
+                
+                .plan-basic-info
+                  .form-group
+                    label 计划名称:
+                    input#plan-name-input(type="text" placeholder="例: 减脂训练计划V2")
+                  .form-group
+                    label 计划描述:
+                    textarea#plan-description-input(placeholder="简单描述这个训练计划的目标和特点")
+                  .form-group
+                    label 生效日期:
+                    input#plan-start-date-input(type="date")
+                  .form-group
+                    label 截止日期:
+                    input#plan-end-date-input(type="date")
+                
+                .weekly-schedule-editor
+                  h5 周训练安排
+                  .days-container#days-editor-container
+                    // 七天的训练计划编辑器会动态生成
+
+  //- LeanCloud SDK for cloud sync (optional)
+  script(src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.12.0/dist/av-min.js")
+  
+  //- Chart.js for weight trend charts
+  script(src="https://cdn.jsdelivr.net/npm/chart.js")
+  
+  //- LeanCloud configuration for cloud sync
+  script.
+    window.LEANCLOUD_CONFIG = {
+      appId: '2Pl86YYuIxeNmWfjha8pG50z-MdYXbMMI',
+      appKey: 'iXY5djvyrp57BTQYvblojANm',
+      serverURL: 'https://2pl86yyu.api.lncldglobal.com'
+    };
+  
+  script(src="/js/fitness.js")

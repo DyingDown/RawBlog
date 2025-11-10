@@ -45,6 +45,9 @@ menu:
       Rubik's Cube:
         path: project/RubikCube/index.html
         ico: cube
+  Fitness:
+    path: /fitness
+    ico: dumbbell
   Tag:
     path: /tags
     ico: tag
@@ -436,11 +439,13 @@ mathjax:
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/last.css
+- /css/fitness.css
 
 # scripts loaded in the end of the body
 scripts:
 - /js/Message.js
 - /js/last.js
+- /js/fitness.js
 - /js/third-party/social-share.js
 - /js/third-party/qrcode.js
 - /js/third-party/tools.js
