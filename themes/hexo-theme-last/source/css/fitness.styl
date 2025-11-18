@@ -2386,65 +2386,152 @@
         
         /* BMI 指示器样式 - 紧凑版右侧显示 */
         .bmi-indicator {
-            min-width: 140px;
-            padding: 12px;
-            border-radius: 8px;
+            min-width: 230px;
+            padding: 16px;
+            // border-radius: 12px;
             text-align: center;
+            // border: 1px solid rgba(0, 0, 0, 0.08);
+            
+            .bmi-labels {
+                position: relative;
+                height: 20px;
+                margin-bottom: 8px;
+                
+                .bmi-label {
+                    position: absolute;
+                    font-size: 11px;
+                    font-weight: 700;
+                    transform: translateX(-50%);
+                    line-height: 1.2;
+                    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 249, 250, 0.9));
+                    padding: 3px 6px;
+                    border-radius: 6px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+                    z-index: 3;
+                    backdrop-filter: blur(4px);
+                    transition: all 0.2s ease;
+                    
+                    &:first-child {
+                        transform: translateX(0%);
+                        color: #2980b9;
+                        border: 1px solid rgba(52, 152, 219, 0.3);
+                    }
+                    
+                    &:nth-child(2) {
+                        color: #27ae60;
+                        border: 1px solid rgba(39, 174, 96, 0.3);
+                        font-weight: 800;
+                    }
+                    
+                    &:nth-child(3) {
+                        color: #f39c12;
+                        border: 1px solid rgba(243, 156, 18, 0.3);
+                    }
+                    
+                    &:nth-child(4) {
+                        color: #e67e22;
+                        border: 1px solid rgba(230, 126, 34, 0.3);
+                    }
+                    
+                    &:last-child {
+                        transform: translateX(-100%);
+                        color: #c0392b;
+                        border: 1px solid rgba(192, 57, 43, 0.3);
+                    }
+                    
+                    &:hover {
+                        transform: translateX(-50%) translateY(-1px) scale(1.05);
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+                        
+                        &:first-child {
+                            transform: translateX(0%) translateY(-1px) scale(1.05);
+                        }
+                        
+                        &:last-child {
+                            transform: translateX(-100%) translateY(-1px) scale(1.05);
+                        }
+                    }
+                }
+            }
             
             .bmi-meter {
                 position: relative;
-                height: 11px;
+                height: 14px;
                 background: linear-gradient(to right, 
-                    #3498db 0% 23%,      /* 偏瘦 */
-                    #27ae60 23% 62%,     /* 正常 */
-                    #f39c12 62% 85%,     /* 超重 */
-                    #e74c3c 85% 100%     /* 肥胖 */
+                    #3498db 0% 20%,
+                    #27ae60 20% 50%,
+                    #f39c12 50% 75%,
+                    #e74c3c 75% 100%
                 );
-                border-radius: 3px;
-                margin: 8px 0 12px 0;
-                box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-                
+                border-radius: 7px;
+                margin: 8px 0 16px 0;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+
                 .bmi-pointer {
                     position: absolute;
-                    top: -6px;
-                    width: 2px;
-                    height: 23px;
-                    background: #333;
+                    top: -8px;
+                    width: 3px;
+                    height: 30px;
+                    background: linear-gradient(135deg, #2c3e50, #34495e);
                     transform: translateX(-50%);
-                    border-radius: 1px;
+                    border-radius: 2px;
                     z-index: 2;
                     
                     &::before {
                         content: '';
                         position: absolute;
-                        top: 0;
-                        left: -2px;
-                        width: 6px;
-                        height: 2px;
-                        background: #333;
-                        border-radius: 1px;
+                        top: -1px;
+                        left: -3px;
+                        width: 9px;
+                        height: 3px;
+                        background: linear-gradient(135deg, #2c3e50, #34495e);
+                        border-radius: 2px;
+                        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
                     }
                     
                     &::after {
                         content: '';
                         position: absolute;
-                        bottom: 0;
-                        left: -2px;
-                        width: 6px;
-                        height: 2px;
-                        background: #333;
-                        border-radius: 1px;
+                        bottom: -1px;
+                        left: -3px;
+                        width: 9px;
+                        height: 3px;
+                        background: linear-gradient(135deg, #2c3e50, #34495e);
+                        border-radius: 2px;
+                        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
                     }
                 }
             }
             
             .bmi-status {
-                font-size: 15px;
-                font-weight: 600;
-                padding: 3px 8px;
-                border-radius: 10px;
-                color: black;
-
+                font-size: 16px;
+                font-weight: 700;
+                // padding: 6px 12px;
+                // border-radius: 12px;
+                color: #2c3e50;
+                // background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(248, 249, 250, 0.6));
+                // border: 1px solid rgba(0, 0, 0, 0.06);
+                letter-spacing: 0.5px;
+                
+                &.underweight {
+                    color: #2980b9;
+                    border-color: rgba(52, 152, 219, 0.2);
+                }
+                
+                &.normal {
+                    color: #27ae60;
+                    border-color: rgba(39, 174, 96, 0.2);
+                }
+                
+                &.overweight {
+                    color: #f39c12;
+                    border-color: rgba(243, 156, 18, 0.2);
+                }
+                
+                &.obese {
+                    color: #e74c3c;
+                    border-color: rgba(231, 76, 60, 0.2);
+                }
             }
         }
     }
